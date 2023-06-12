@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    color:#3D3D39;
+    font-family: "Open Sans",Verdana,Helvetica,sans-serif;
+}
 .images {
     width: 350px;
     height: 350px;

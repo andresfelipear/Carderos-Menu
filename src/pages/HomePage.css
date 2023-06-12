@@ -1,0 +1,20 @@
+main h1+ul li{
+   display: flex;
+   padding: 0 16px; 
+   border-right: 1px solid #3D3D39;
+   align-items: center;
+}
+
+main ul:last-child li{
+    display: flex;
+    padding: 24px 20px; 
+    align-items: center;
+ }
+
+ main ul:last-child li span{
+    padding-bottom: 10px;
+ }
+
+main ul li img{
+    margin-right: 10px;
+}

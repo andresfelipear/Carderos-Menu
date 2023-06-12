@@ -2,13 +2,13 @@ import React from 'react';
 
 function Header() {
   return (
-    <header className="bg-secondary text-zinc-300 block">
+    <header className="bg-secondary block">
       <div className="py-4 text-center font-medium  m-auto flex items-center grid grid-cols-3 gap-4">
         <div className='col-start-2 w-fit'>
           <h1 className="text-primary text-5xl tracking-widest">cardero's</h1>
-          <div className="uppercase tracking-[.50em] italic text-gray-400 text-[10px] text-right">restaurant</div>
+          <div className="uppercase tracking-[.50em] italic text-gray-400 text-[0.50rem] text-right">restaurant</div>
         </div>
-        <div className="text-gray-600">
+        <div>
           Tel: <strong>604.669.7666</strong>
         </div>
 
