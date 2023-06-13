@@ -45,7 +45,7 @@ export default function HomePage() {
   }
 
   return (
-    <main className='bg-secondary py-12' >
+    <main className='bg-secondary py-6 md:py-12' >
       <div className='px-4 md:px-8'>
         <h1 className='mb-6 text-[46px] text-center uppercase font-sans tracking-wider'>Menus</h1>
         <ul className='flex justify-center text-xs items-center mb-5'>
@@ -59,7 +59,7 @@ export default function HomePage() {
             <li ><span>Lunch Menu</span></li>
             <li><span>Wine</span></li>
           </ul>
-          <div className='mt-12 px-4 md:px-12 pb-16 mx-auto'>
+          <div className='mt-12 px-4 md:px-12 pb-6 md:pb-16 mx-auto'>
             <p className='text-center text-sm'>Available from 4pm daily</p>
             {data.categories.map((section) => {
               let meals = section.items;
