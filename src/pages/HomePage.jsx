@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import './HomePage.css'
 import Accordion from '../components/accordion/Accordion'
 import Meal from '../components/meal/Meal'
@@ -7,41 +7,39 @@ import Modal from '../components/notification/Modal'
 
 export default function HomePage() {
   const [useFilter, setUseFilter] = useState(false);
-  const [filterValue, setFilterValue]=useState("");
+  const [filterValue, setFilterValue] = useState("");
   const [mealDetails, setMealDetails] = useState("")
   const oceanWise = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-oceanwise.svg";
   const veggie = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-veggie.svg";
   const glutenFree = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-glutenfree.svg";
-  
 
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = (meal) => {
-    const modalContainer = document.getElementById("modal-container");
-    modalContainer.classList.add("is-active");
     setMealDetails(meal);
-  }
+    setIsModalOpen(true);
+  };
 
   const closeModal = () => {
-    const modalContainer = document.getElementById("modal-container");
-    modalContainer.classList.remove("is-active");
+    setIsModalOpen(false);
+  };
+
+  const applyFilter = (value) => {
+    if (filterValue === "") {
+      setFilterValue(value);
+      setUseFilter(true);
+    }
+    else if (value !== filterValue) {
+      setFilterValue(value);
+    }
+    else {
+      setFilterValue("");
+      setUseFilter(false);
+
+    }
   }
 
-  const applyFilter = (value)=>{
-      if(filterValue===""){
-        setFilterValue(value);
-        setUseFilter(true);
-      }
-      else if(value !== filterValue){
-        setFilterValue(value);
-      }
-      else{
-        setFilterValue("");
-        setUseFilter(false);
-
-      }
-  }
-
-  const showDetails =(meal)=>{
+  const showDetails = (meal) => {
     openModal(meal);
 
   }
@@ -51,9 +49,9 @@ export default function HomePage() {
       <div className='px-8'>
         <h1 className='mb-6 text-[46px] text-center uppercase font-sans tracking-wider'>Menus</h1>
         <ul className='flex justify-center text-xs items-center mb-5'>
-          <li onClick={()=>{applyFilter('oceanwise')}} className={filterValue==="oceanwise"?'active':''} ><img src={oceanWise} alt="" /><span>Oceanwise</span></li>
-          <li onClick={()=>{applyFilter('veggie')}} className={filterValue==="veggie"?'active':''} ><img src={veggie} alt="" /><span>Vegetarian</span></li>
-          <li onClick={()=>{applyFilter('glutenfree')}} className={filterValue==="glutenfree"?'active':''}><img src={glutenFree} alt="" /><span>Gluten-Free</span></li>
+          <li onClick={() => { applyFilter('oceanwise') }} className={filterValue === "oceanwise" ? 'active' : ''} ><img src={oceanWise} alt="" /><span>Oceanwise</span></li>
+          <li onClick={() => { applyFilter('veggie') }} className={filterValue === "veggie" ? 'active' : ''} ><img src={veggie} alt="" /><span>Vegetarian</span></li>
+          <li onClick={() => { applyFilter('glutenfree') }} className={filterValue === "glutenfree" ? 'active' : ''}><img src={glutenFree} alt="" /><span>Gluten-Free</span></li>
         </ul>
         <div className='menu-section bg-basic max-w-screen-lg m-auto'>
           <ul className='flex justify-center text-base uppercase items-center bg-[#BD3F39] text-basic'>
@@ -61,21 +59,21 @@ export default function HomePage() {
             <li ><span>Lunch Menu</span></li>
             <li><span>Wine</span></li>
           </ul>
-          <div className='mt-12 px-16 pb-16 mx-auto'>
+          <div className='mt-12 px-4 sm:px-12 pb-16 mx-auto'>
             <p className='text-center text-sm'>Available from 4pm daily</p>
-            {data.categories.map((section)=>{
+            {data.categories.map((section) => {
               let meals = section.items;
-              if(useFilter){
+              if (useFilter) {
                 meals = section.items.filter(item => item.options && item.options.includes(filterValue));
               }
-              if(meals.length ==0){
+              if (meals.length == 0) {
                 return;
               }
-              return(
-                <Accordion open={useFilter} key={section.name} title={section.name} content={<div className='grid grid-cols-2 gap-x-12'>
-                  {meals.map((meal)=>{
-                    return(
-                      <Meal onClick={()=>showDetails(meal)} key={meal.name} title={meal.name} price={meal.price} description={meal.description} icons={meal.options}  />
+              return (
+                <Accordion open={useFilter} key={section.name} title={section.name} content={<div className='grid grid-cols-1 gap-x-12 lg:grid-cols-2'>
+                  {meals.map((meal) => {
+                    return (
+                      <Meal onClick={() => showDetails(meal)} key={meal.name} title={meal.name} price={meal.price} description={meal.description} icons={meal.options} />
                     )
                   })}
                 </div>} />
@@ -85,7 +83,7 @@ export default function HomePage() {
 
         </div>
       </div>
-      <Modal meal={mealDetails} handleClose={closeModal} />
+      <Modal isOpen={isModalOpen} meal={mealDetails} onClose={closeModal} />
     </main>
   )
 }
