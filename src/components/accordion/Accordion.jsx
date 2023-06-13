@@ -22,7 +22,7 @@ const Accordion = ({ title, content }) => {
         </span>
       </button>
       {isOpen && (
-        <div className="px-4 grid grid-cols-2 gap-4">
+        <div className="px-4">
           <div>{content}</div>
         </div>
       )}

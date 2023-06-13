@@ -28,10 +28,14 @@ export default function HomePage() {
           </ul>
           <div className='mt-12 px-16 pb-16 mx-auto'>
             <p className='text-center text-sm'>Available from 4pm daily</p>
-            <Accordion title={'Accordion 1' } content={<>
+            <Accordion title={'Accordion 1' } content={<div className='grid grid-cols-2 gap-4'>
               <Meal title={'Hummus'} price={'17.50'} description={'cilantro pesto, goat feta, dukkah (contains nuts), kalamata olives, warm naan.'} icon={veggie}/>
               <Meal title={'Hummus'} price={'17.50'} description={'cilantro pesto, goat feta, dukkah (contains nuts), kalamata olives, warm naan.'} icon={veggie}/>
-            </>}/>
+              <Meal title={'Hummus'} price={'17.50'} description={'cilantro pesto, goat feta, dukkah (contains nuts), kalamata olives, warm naan.'} icon={veggie}/>
+              <Meal title={'Hummus3'} price={'17.50'} description={'cilantro pesto, goat feta, dukkah (contains nuts), kalamata olives, warm naan.'} icon={veggie}/>
+              <Meal title={'Hummus4'} price={'17.50'} description={'cilantro pesto, goat feta, dukkah (contains nuts), kalamata olives, warm naan.'} icon={veggie}/>
+              <Meal title={'Hummus'} price={'17.50'} description={'cilantro pesto, goat feta, dukkah (contains nuts), kalamata olives, warm naan.'} icon={veggie}/>
+            </div>}/>
             <Accordion title={'Accordion 1' } content={'lorem '}/>
             <Accordion title={'Accordion 1' } content={'lorem '}/>
             <Accordion title={'Accordion 1' } content={'lorem '}/>
