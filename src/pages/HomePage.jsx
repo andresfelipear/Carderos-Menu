@@ -3,15 +3,31 @@ import './HomePage.css'
 import Accordion from '../components/accordion/Accordion'
 import Meal from '../components/meal/Meal'
 import data from '../data.json'
+import Modal from '../components/notification/Modal'
 
 export default function HomePage() {
   const [useFilter, setUseFilter] = useState(false);
   const [filterValue, setFilterValue]=useState("");
+  const [mealDetails, setMealDetails] = useState("")
   const oceanWise = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-oceanwise.svg";
   const veggie = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-veggie.svg";
   const glutenFree = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-glutenfree.svg";
+  
+
+
+  const openModal = (meal) => {
+    const modalContainer = document.getElementById("modal-container");
+    modalContainer.classList.add("is-active");
+    setMealDetails(meal);
+  }
+
+  const closeModal = () => {
+    const modalContainer = document.getElementById("modal-container");
+    modalContainer.classList.remove("is-active");
+  }
 
   const applyFilter = (value)=>{
+    openModal('test1',"modal");
       if(filterValue===""){
         setFilterValue(value);
         setUseFilter(true);
@@ -22,8 +38,13 @@ export default function HomePage() {
       else{
         setFilterValue("");
         setUseFilter(false);
-        
+
       }
+  }
+
+  const showDetails =(meal)=>{
+    openModal(meal);
+
   }
 
   return (
@@ -55,7 +76,7 @@ export default function HomePage() {
                 <Accordion open={useFilter} key={section.name} title={section.name} content={<div className='grid grid-cols-2 gap-x-12'>
                   {meals.map((meal)=>{
                     return(
-                      <Meal key={meal.name} title={meal.name} price={meal.price} description={meal.description} icons={meal.options} />
+                      <Meal onClick={()=>showDetails(meal)} key={meal.name} title={meal.name} price={meal.price} description={meal.description} icons={meal.options}  />
                     )
                   })}
                 </div>} />
@@ -65,6 +86,7 @@ export default function HomePage() {
 
         </div>
       </div>
+      <Modal meal={mealDetails} handleClose={closeModal} />
     </main>
   )
 }

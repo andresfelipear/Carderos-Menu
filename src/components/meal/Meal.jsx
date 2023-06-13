@@ -1,15 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Meal = ({ title, price, description, icons }) => {
+const Meal = ({ title, price, description, icons, onClick }) => {
     const oceanWise = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-oceanwise.svg";
     const veggie = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-veggie.svg";
     const glutenFree = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-glutenfree.svg";
-    const organic = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-glutenfree.svg";
+    
 
 
     return (
-        <div className="mx-auto py-3 w-full">
+        <div className="mx-auto py-3 w-full cursor-pointer" onClick={onClick}>
             <div className="flex items-center justify-between">
                 <h3 className="text-sm uppercase font-bold">{title}</h3>
                 <div >

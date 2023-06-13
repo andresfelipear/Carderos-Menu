@@ -7,6 +7,8 @@
                     "name": "HUMMUS",
                     "price": 17.50,
                     "description": "cilantro pesto, goat feta, dukkah (contains nuts), kalamata olives, warm naan.",
+                    "image":"https://matsuno.shop/images/photos/1662873416-dz7S2jY7O35vPeiAMBN8rgoKI4OVNNvFWsmHHKdCnYZNkzQJHG.png",
+                    "allergies":["celiac", "dairy", "nuts"],
                     "options": [
                         "veggie"
                     ]
@@ -15,6 +17,8 @@
                     "name": "FRESH OYSTERS",
                     "price": "market",
                     "description": "served raw on the half shell, any denomination.",
+                    "image":"https://matsuno.shop/images/photos/1662786505-pOMddscvqPz12xLzfLh7e8tr3UuxIZqawzw5LVo7mu6JWbe5Ok.png",
+                    "allergies":["shellfish"],
                     "options": [
                         "oceanwise"
                     ]
@@ -23,6 +27,8 @@
                     "name": "PRAWN COCKTAIL",
                     "price": 23,
                     "description": "chilled black tiger prawns, cocktail & tarragon horseradish sauce.",
+                    "image":"https://matsuno.shop/images/photos/1663133345-SZZNSQrf8xlJuZFfiIpkApVf6gm5cEWISWxock95nlcc1AUwO8.png",
+                    "allergies":["shellfish"],
                     "options": [
                         "oceanwise"
                     ]
@@ -31,6 +37,7 @@
                     "name": "BBQ RIBS",
                     "price": 19,
                     "description": "honey, molasses, forno baked.",
+                    "image":"https://matsuno.shop/images/photos/1662785067-nKJkuR2jogw7vZ30ZobYjlRWSo5ygRNMdViNd4YYTQRXahS7AZ.png",
                     "options": [
                         "glutenfree"
                     ]
@@ -39,8 +46,8 @@
                     "name": "MUSSELS",
                     "price": 24,
                     "description": "1 lb of blue shell mussels in coconut curry sauce, herbs, focaccia.",
+                    "image":"https://matsuno.shop/images/photos/1663136117-ysmOkhdkhpdREQt3idBxV87vUpQqtgaBX36FWAo7RhVABZAMMd.png",
                     "options": [
-                        "glutenfree",
                         "oceanwise"
                     ]
                 },
@@ -48,6 +55,7 @@
                     "name": "FRIED OYSTERS",
                     "price": 17,
                     "description": "cocktail & horseradish tarragon sauce",
+                    "image":"https://matsuno.shop/images/photos/1662787561-3ij6pHC94oMpoih1lJrxmJGWB12UrtXX1wrc5mxLTL8rTvRxpw.png",
                     "options": [
                         "oceanwise"
                     ]
@@ -55,12 +63,15 @@
                 {
                     "name": "HAR GOW",
                     "price": 18.5,
-                    "description": "1/2 dozen shrimp dumplings with hot mustard, chili sauce *contains pork."
+                    "description": "1/2 dozen shrimp dumplings with hot mustard, chili sauce *contains pork.",
+                    "image":"https://matsuno.shop/images/photos/1662786959-DijqM1J26GQwVLWAsKF3CGvNp31d7nWs9KHKM75z6eIkeoT8Yo.png"
                 },
                 {
                     "name": "MARGHERITA PIZZA",
                     "price": 19,
                     "description": "Italian 00 flour, roma tomato sauce, basil, mozzarella, fior di latte.",
+                    "allergies":["celiac", "dairy"],
+                    "image":"https://matsuno.shop/images/photos/1664084973-pnoIA8pcps7VnL4vx28w38duo635HJmDdF5NwMucZFaeb9CEkY.jpg",
                     "options": [
                         "veggie"
                     ]
@@ -68,27 +79,34 @@
                 {
                     "name": "PROSCIUTTO & ARUGULA PIZZA",
                     "price": 27,
-                    "description": "Italian 00 flour, extra virgin olive oil."
+                    "description": "Italian 00 flour, extra virgin olive oil.",
+                    "image":"https://matsuno.shop/images/photos/1682221153-ykSmV0TPfNYRkBSa64VO13uyo73jFBGPrHl6pTfXS3Kjn7h1cP.jpg"
                 },
                 {
                     "name": "ITALIAN MEATBALLS",
                     "price": 18.5,
-                    "description": "organic grass-fed beef, roma tomato sauce, grana padano, basil."
+                    "description": "organic grass-fed beef, roma tomato sauce, grana padano, basil.",
+                    "allergies":["dairy"],
+                    "image":"https://matsuno.shop/images/photos/1663138088-x4feHNBtoXW4OtYAuKLRiHClGaCSW7MivSK8jtdLnxbXODVXg1.png"
                 },
                 {
                     "name": "TUNA TATAKI",
                     "price": 23,
-                    "description": "pickled green papaya, ponzu, edamame, grapefruit, avocado."
+                    "description": "pickled green papaya, ponzu, edamame, grapefruit, avocado.",
+                    "image":"https://matsuno.shop/images/photos/1664256014-qoDAnQw1Ijb4oKPPCNcc43BphxVqB3LqnfFpFb1DonZrPPG6zx.png"
                 },
                 {
                     "name": "SIGNATURE WOK SQUID",
                     "price": 19,
-                    "description": "flash-fried, garlic, chilies, onions, chili caesar sauce."
+                    "description": "flash-fried, garlic, chilies, onions, chili caesar sauce.",
+                    "allergies":["celiac", "dairy", "garlic", "onions", "cilantro"],
+                    "image":"https://matsuno.shop/images/photos/1662874141-RS8u0na81XjPPCXkSp70QPoGY6e3kogpjNumZrsDbEq293wOvU.png"
                 },
                 {
                     "name": "SWEET & SOUR CHICKEN",
                     "price": 16,
-                    "description": "flash-fried, green onions, bean sprouts, sesame seeds."
+                    "description": "flash-fried, green onions, bean sprouts, sesame seeds.",
+                    "image":"https://matsuno.shop/images/photos/1662876395-o4USO8YAoveDopRCrpHME65dSyeCQeZqWTFYqpELnnS30uBFrH.png"
                 },
                 {
                     "name": "THAI CURRY PRAWNS",
@@ -96,7 +114,8 @@
                     "description": "snow peas, red peppers, basil, peanuts, wok fried or steamed rice",
                     "options": [
                         "glutenfree"
-                    ]
+                    ],
+                    "image":"https://matsuno.shop/images/photos/1662874443-xaSDXONih5oKQRSHD4J81cGOBdIYdCoMygtFUtqKTzAfwAbaXw.png"
                 },
                 {
                     "name": "SZECHUAN BEANS",
@@ -104,7 +123,8 @@
                     "description": "ginger, chili, garlic.",
                     "options": [
                         "veggie"
-                    ]
+                    ],
+                    "image":"ttps://matsuno.shop/images/photos/1662876866-zyxj7dKHabYborRmzvGfYAES1qPVqatp2x0eMtQcWJIuETQ8we.png"
                 }
             ]
         },
