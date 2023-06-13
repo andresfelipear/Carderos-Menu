@@ -13,7 +13,7 @@ const Accordion = ({ title, content }) => {
     return (
         <div>
             <button
-                className="flex justify-between w-full px-4 py-7 focus:outline-none border-b"
+                className="flex justify-between w-full px-4 pt-10 pb-7 focus:outline-none border-b"
                 onClick={toggleAccordion}
             >
                 <h2 className='text-2xl font-["Merriweather"]'>{title}</h2>

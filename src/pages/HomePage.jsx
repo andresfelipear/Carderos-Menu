@@ -34,7 +34,7 @@ export default function HomePage() {
                 <Accordion key={section.name} title={section.name} content={<div className='grid grid-cols-2 gap-x-12'>
                   {section.items.map((meals)=>{
                     return(
-                      <Meal key={meals.name} title={meals.name} price={meals.price} description={meals.description} icon={meals.options} />
+                      <Meal key={meals.name} title={meals.name} price={meals.price} description={meals.description} icons={meals.options} />
                     )
                   })}
                 </div>} />

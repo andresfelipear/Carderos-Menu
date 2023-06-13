@@ -3,6 +3,7 @@ main h1+ul li{
    padding: 0 16px; 
    border-right: 1px solid #3D3D39;
    align-items: center;
+   cursor: pointer;
 }
 
 main .menu-section ul li{
@@ -25,6 +26,6 @@ main .menu-section ul li{
     border-bottom: 3px solid white;
  }
 
-main ul li img{
+main img{
     margin-right: 10px;
 }
