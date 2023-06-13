@@ -1,0 +1,490 @@
+{
+    "categories": [
+      {
+        "name": "Appetizers",
+        "items": [
+          {
+            "name": "HUMMUS",
+            "price": 17.50,
+            "description": "cilantro pesto, goat feta, dukkah (contains nuts), kalamata olives, warm naan.",
+            "options": [
+              "veggie"
+            ]
+          },
+          {
+            "name": "FRESH OYSTERS",
+            "price": "market",
+            "description": "served raw on the half shell, any denomination."
+          },
+          {
+            "name": "PRAWN COCKTAIL",
+            "price": 23,
+            "description": "chilled black tiger prawns, cocktail & tarragon horseradish sauce."
+          },
+          {
+            "name": "BBQ RIBS",
+            "price": 19,
+            "description": "honey, molasses, forno baked."
+          },
+          {
+            "name": "MUSSELS",
+            "price": 24,
+            "description": "1 lb of blue shell mussels in coconut curry sauce, herbs, focaccia.",
+            "options": [
+              "glutenfree",
+              "oceanwise"
+            ]
+          },
+          {
+            "name": "FRIED OYSTERS",
+            "price": 17,
+            "description": "cocktail & horseradish tarragon sauce",
+            "options": [
+              "oceanwise"
+            ]
+          },
+          {
+            "name": "HAR GOW",
+            "price": 18.5,
+            "description": "1/2 dozen shrimp dumplings with hot mustard, chili sauce *contains pork.",
+            "options": [
+              "oceanwise"
+            ]
+          },
+          {
+            "name": "MARGHERITA PIZZA",
+            "price": 19,
+            "description": "Italian 00 flour, roma tomato sauce, basil, mozzarella, fior di latte.",
+            "options": [
+              "veggie"
+            ]
+          },
+          {
+            "name": "PROSCIUTTO & ARUGULA PIZZA",
+            "price": 27,
+            "description": "Italian 00 flour, extra virgin olive oil.",
+            "options": [
+              "veggie"
+            ]
+          },
+          {
+            "name": "ITALIAN MEATBALLS",
+            "price": 18.5,
+            "description": "organic grass-fed beef, roma tomato sauce, grana padano, basil."
+          },
+          {
+            "name": "TUNA TATAKI",
+            "price": 23,
+            "description": "pickled green papaya, ponzu, edamame, grapefruit, avocado."
+          },
+          {
+            "name": "SIGNATURE WOK SQUID",
+            "price": 19,
+            "description": "flash-fried, garlic, chilies, onions, chili caesar sauce."
+          },
+          {
+            "name": "SWEET & SOUR CHICKEN",
+            "price": 16,
+            "description": "flash-fried, green onions, bean sprouts, sesame seeds."
+          },
+          {
+            "name": "THAI CURRY PRAWNS",
+            "price": 24.50,
+            "description": "snow peas, red peppers, basil, peanuts, wok fried or steamed rice",
+            "options": [
+              "glutenfree"
+            ]
+          },
+          {
+            "name": "SZECHUAN BEANS",
+            "price": 12.50
+  
+  ,
+            "description": "ginger, chili, garlic.",
+            "options": [
+              "veggie"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Platters",
+        "items": [
+          {
+            "name": "SEASIDE PLATTER",
+            "price": 69,
+            "description": "forno baked BBQ ribs, grilled prawns, salmon & scallops, lemon caper beurre blanc",
+            "options": [
+              "veggie"
+            ]
+          },
+          {
+            "name": "DOCKSIDE PLATTER",
+            "price": 118,
+            "description": "one dozen fresh oysters, chilled clams, prawns, mussels & crab claws, ahi tuna tataki, salmon poke, miso-ginger viniagrette, red wine mignonette, cocktails sauce",
+            "options": [
+              "glutenfree"
+            ]
+          },
+          {
+            "name": "HARBOUR PLATTER",
+            "price": 49,
+            "description": "prosciutto, seared albacore tuna, chilled prawns, hummus, feta, roasted tomatoes, olives, pita",
+            "options": [
+              "veggie"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Soup & Salads",
+        "items": [
+          {
+            "name": "SOUP OF THE DAY",
+            "price": "market"
+          },
+          {
+            "name": "MANHATTAN STYLE CLAM CHOWDER",
+            "price": 13,
+            "options": [
+              "glutenfree"
+            ]
+          },
+          {
+            "name": "CAESAR SALAD",
+            "price": 14.50,
+            "description": "asiago cheese, garlic croutons, crisp capers.",
+            "options": [
+              "glutenfree"
+            ]
+          },
+          {
+            "name": "MEDITERRANEAN SALAD",
+            "price": 19,
+            "description": "bell peppers, tomatoes, cucumbers, olives, onions, goat feta."
+          },
+          {
+            "name": "AVOCADO, TOMATO & ALBACORE",
+            "price": 24.5,
+            "description": "sesame crusted Albacore tuna, Thai basil, ponzu",
+            "options": [
+              "veggie",
+              "glutenfree"
+            ]
+          },
+          {
+            "name": "KALE & QUINOA SALAD",
+            "price": 19,
+            "description": "baby kale, avocado, strawberries, tomatoes, almonds, goat’s cheese, pickled fennel.",
+            "options": [
+              "veggie",
+              "glutenfree"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "For The Table",
+        "items": [
+          {
+            "name": "PRAWN SIZZLE",
+            "price": 18.5,
+            "description": "white wine, garlic, lemon, butter, focaccia."
+          },
+          {
+            "name": "CRISPY BRUSSEL SPROUTS",
+            "price": 12,
+            "description": "lemon pepper, chili, grana padano.",
+            "options": [
+              "veggie"
+            ]
+          },
+          {
+            "name": "CAST IRON MUSHROOMS",
+            "price": 11,
+            "description": "garlic butter & herbs",
+            "options": [
+              "veggie",
+              "glutenfree"
+            ]
+          },
+          {
+           
+  
+   "name": "FORNO ROASTED POTATOES",
+            "price": 9,
+            "description": "Forno Roasted Potatoes V GF fingerling & nugget potatoes, rosemary",
+            "options": [
+              "veggie",
+              "glutenfree"
+            ]
+          },
+          {
+            "name": "HOUSEMADE FOCACCIA",
+            "price": 7,
+            "options": [
+              "veggie"
+            ]
+          },
+          {
+            "name": "CHARRED BROCCOLINI",
+            "price": 12,
+            "description": "lemon, herbs, grana padano, cracked chili.",
+            "options": [
+              "veggie",
+              "glutenfree"
+            ]
+          },
+          {
+            "name": "PARMESAN TRUFFLE FRIES",
+            "price": 12,
+            "description": "roasted garlic aioli",
+            "options": [
+              "veggie"
+            ]
+          },
+          {
+            "name": "WARM OLIVES",
+            "price": 8,
+            "description": "olive oil, fennel seeds, lemon.",
+            "options": [
+              "veggie",
+              "glutenfree"
+            ]
+          },
+          {
+            "name": "SZECHUAN BEANS",
+            "price": 12.50,
+            "description": "ginger, chili, garlic.",
+            "options": [
+              "veggie"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fish & Chops",
+        "items": [
+          {
+            "name": "CARDERO’S SIGNATURE CEDAR PLANK SALMON",
+            "price": 32.5,
+            "description": "prepared medium unless otherwise requested, brown sugar, soy, wok fried rice, market vegetables",
+            "options": [
+              "glutenfree"
+            ]
+          },
+          {
+            "name": "MUSSELS & FRITES",
+            "price": 29,
+            "description": "1 lb of blue shell mussels in coconut curry sauce, herbs.",
+            "options": [
+              "oceanwise"
+            ]
+          },
+          {
+            "name": "PRAWNS & SCALLOPS",
+            "price": 44,
+            "description": "sautéed farro, quinoa, spinach, tomatoes, lemon caper butter."
+          },
+          {
+            "name": "ROASTED SABLEFISH",
+            "price": 46,
+            "description": "miso-sake marinade, wok fried rice, seasonal vegetables.",
+            "options": [
+              "oceanwise",
+              "glutenfree"
+            ]
+          },
+          {
+            "name": "SESAME CRUSTED ALBACORE TUNA",
+            "price": 33,
+            "description": "seared rare, wasabi soy sauce, broccolini.",
+            "options": [
+              "oceanwise",
+              "glutenfree"
+            ]
+          },
+          {
+            "name": "HALF ROASTED CHICKEN",
+            "price": 31,
+            "description": "roasted potatoes, broccolini, mushrooms, red wine demi-glace.",
+            "options": [
+              "glutenfree"
+            ]
+          },
+          {
+            "name": "10 OZ PORK CHOP",
+            "price": 33.5,
+            "description": "from Fraser Valley, prepared medium, apricot-anise demi-glace.",
+            "options": [
+              "glutenfree"
+            ]
+          },
+          {
+            "name": "HALF LAMB RACK",
+            "price": 42,
+            "description": "marinated in garlic & rosemary, mint chimichurri.",
+            "options": [
+              "glutenfree"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "From The Grill",
+        "items": [
+          {
+            "name": "GRILLED SALMON",
+            "price": 32.5,
+            "description": "wok fried rice, market vegetables.",
+            "options": [
+              "glutenfree"
+            ]
+          },
+          {
+            "name": "10 OZ AAA STRIPLOIN STEAK",
+            "price": 38,
+            "description": "roasted potatoes, grilled asparagus, red wine demi-glace.",
+            "options": [
+              "glutenfree"
+            ]
+          },
+          {
+            "name": "8 OZ FILET MIGNON",
+            "price": 44,
+            "description": "roasted potatoes, grilled asparagus, red wine demi-glace.",
+            "options": [
+              "glutenfree"
+            ]
+          },
+          {
+            "name": "16 OZ RIBEYE",
+            "price": 49,
+            "description": "roasted potatoes, grilled asparagus, red wine demi-glace.",
+            "options": [
+              "glutenfree"
+            ]
+          },
+          {
+            "name": "20 OZ T-BONE",
+            "price": 52,
+            "description": "roasted potatoes, grilled asparagus, red wine demi-glace.",
+            "options": [
+              "glutenfree"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sides",
+        "items": [
+          {
+            "name": "TRUFFLE MASHED POTATOES",
+            "price": 9.5,
+            "description": "truffle oil, garlic, parmesan."
+          },
+          {
+            "name": "ROASTED POTATOES",
+            "price": 9,
+            "description": "fingerling & nugget potatoes, rosemary",
+            "options": [
+              "veggie",
+              "glutenfree"
+            ]
+          },
+          {
+            "name": "GRILLED ASPARAGUS",
+            "price": 11,
+            "description": "lemon, chili flakes, grana padano.",
+            "options": [
+              "veggie",
+              "glutenfree"
+            ]
+          },
+          {
+            "name": "CREAMED SPINACH",
+            "price": 9,
+            "description": "spinach, garlic cream, grana padano.",
+            "options": [
+              "veggie",
+              "glutenfree"
+            ]
+          },
+          {
+            "name": "BROCCOLINI",
+            "price": 11,
+            "description": "lemon, herbs, grana padano, cracked chili.",
+            "options": [
+              "veggie",
+              "glutenfree"
+            ]
+          },
+          {
+            "name": "GRILLED MUSHROOMS",
+            "price": 10,
+            "description": "garlic butter, herbs.",
+            "options": [
+              "veggie",
+              "glutenfree"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Desserts",
+        "items": [
+          {
+            "name": "BAILEYS CHOCOLATE BROWNIE",
+            "price": 12,
+            "description": "hazelnuts, crème anglaise."
+          },
+          {
+            "name": "VANILLA BEAN CHEESECAKE",
+            "price": 12,
+            "description": "salted caramel, chocolate ganache."
+          },
+          {
+            "name": "STICKY TOFFEE PUDDING",
+            "price": 12,
+            "description": "butterscotch sauce, vanilla gelato."
+          },
+          {
+            "name": "CLASSIC CRÈME BRÛLÉE",
+            "price": 12
+          },
+          {
+            "name": "FRESH FRUIT PLATE",
+            "price": 12,
+            "options": [
+              "veggie",
+              "glutenfree"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kid's Menu",
+        "items": [
+          {
+            "name": "CHEESEBURGER",
+            "price": 12,
+            "description": "cheddar, lettuce, tomato, fries."
+          },
+          {
+            "name": "FISH & CHIPS",
+            "price": 12,
+            "description": "salmon, fries."
+          },
+          {
+            "name": "CHICKEN FINGERS",
+            "price": 12,
+            "description": "fries."
+          },
+          {
+            "name": "SPAGHETTI & MEATBALLS",
+            "price": 12
+          }
+        ]
+      }
+    ]
+  }

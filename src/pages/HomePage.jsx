@@ -2,6 +2,7 @@ import React from 'react'
 import './HomePage.css'
 import Accordion from '../components/accordion/Accordion'
 import Meal from '../components/meal/Meal'
+import data from '../data.json'
 
 export default function HomePage() {
   const oceanWise = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-oceanwise.svg";
@@ -20,7 +21,7 @@ export default function HomePage() {
           <li ><img src={glutenFree} alt="" />Gluten-Free</li>
           <li ><img src={organic} alt="" />Organic</li>
         </ul>
-        <div className='menu-section bg-basic'>
+        <div className='menu-section bg-basic max-w-screen-lg m-auto'>
           <ul className='flex justify-center text-base uppercase items-center bg-[#BD3F39] text-basic'>
             <li ><span className='active'>Dinner Menu</span></li>
             <li ><span>Lunch Menu</span></li>
@@ -28,17 +29,17 @@ export default function HomePage() {
           </ul>
           <div className='mt-12 px-16 pb-16 mx-auto'>
             <p className='text-center text-sm'>Available from 4pm daily</p>
-            <Accordion title={'Accordion 1' } content={<div className='grid grid-cols-2 gap-4'>
-              <Meal title={'Hummus'} price={'17.50'} description={'cilantro pesto, goat feta, dukkah (contains nuts), kalamata olives, warm naan.'} icon={veggie}/>
-              <Meal title={'Hummus'} price={'17.50'} description={'cilantro pesto, goat feta, dukkah (contains nuts), kalamata olives, warm naan.'} icon={veggie}/>
-              <Meal title={'Hummus'} price={'17.50'} description={'cilantro pesto, goat feta, dukkah (contains nuts), kalamata olives, warm naan.'} icon={veggie}/>
-              <Meal title={'Hummus3'} price={'17.50'} description={'cilantro pesto, goat feta, dukkah (contains nuts), kalamata olives, warm naan.'} icon={veggie}/>
-              <Meal title={'Hummus4'} price={'17.50'} description={'cilantro pesto, goat feta, dukkah (contains nuts), kalamata olives, warm naan.'} icon={veggie}/>
-              <Meal title={'Hummus'} price={'17.50'} description={'cilantro pesto, goat feta, dukkah (contains nuts), kalamata olives, warm naan.'} icon={veggie}/>
-            </div>}/>
-            <Accordion title={'Accordion 1' } content={'lorem '}/>
-            <Accordion title={'Accordion 1' } content={'lorem '}/>
-            <Accordion title={'Accordion 1' } content={'lorem '}/>
+            {data.categories.map((section)=>{
+              return(
+                <Accordion key={section.name} title={section.name} content={<div className='grid grid-cols-2 gap-x-12'>
+                  {section.items.map((meals)=>{
+                    return(
+                      <Meal key={meals.name} title={meals.name} price={meals.price} description={meals.description} icon={meals.options} />
+                    )
+                  })}
+                </div>} />
+              )
+            })}
           </div>
 
         </div>
