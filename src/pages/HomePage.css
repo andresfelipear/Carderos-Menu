@@ -1,31 +1,41 @@
-main h1+ul li{
-   display: flex;
-   padding: 0 16px; 
-   border-right: 1px solid #3D3D39;
-   align-items: center;
-   cursor: pointer;
-}
-
-main .menu-section ul li{
+main h1+ul li {
     display: flex;
-    padding: 24px 20px; 
+    padding: 0 16px;
+    border-right: 1px solid #3D3D39;
     align-items: center;
     cursor: pointer;
- }
+}
 
- main .menu-section ul li:hover{
-    background-color: rgba(0,0,0,0.1);
- }
- main .menu-section ul li span{
+main h1+ul .active {
+    color: #bd3f39;
+}
+
+main h1+ul .active span{
+    border-bottom: 2px solid #bd3f39;
+}
+
+main .menu-section ul li {
+    display: flex;
+    padding: 24px 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+main .menu-section ul li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+main main .menu-section ul li span {
     padding-bottom: 10px;
     color: rgba(255, 255, 255, 0.5);
- }
+}
 
- main .menu-section ul li .active{
+main .menu-section ul li .active {
     color: rgba(255, 255, 255, 1) !important;
     border-bottom: 3px solid white;
- }
+}
 
-main img{
+main img {
     margin-right: 10px;
 }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Accordion = ({ title, content }) => {
+const Accordion = ({ title, content, useFilter }) => {
     const [isOpen, setIsOpen] = useState(false);
     const iconMinus = 'https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-minus.svg';
     const iconPlus = 'https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-plus.svg';
@@ -18,10 +18,10 @@ const Accordion = ({ title, content }) => {
             >
                 <h2 className='text-2xl font-["Merriweather"]'>{title}</h2>
                 <span>
-                    <img className='w-4 h-4' src={isOpen ? iconMinus : iconPlus} />
+                    <img className='w-4 h-4' src={(isOpen||useFilter) ? iconMinus : iconPlus} />
                 </span>
             </button>
-            {isOpen && (
+            {(isOpen||useFilter) && (
                 <div className="px-4 py-4 border-b">
                     <div>{content}</div>
                 </div>

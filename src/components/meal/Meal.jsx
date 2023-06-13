@@ -21,14 +21,12 @@ const Meal = ({ title, price, description, icons }) => {
                 <div className="flex mt-2">
                     {icons.map((icon) => {
                         let urlIcon = oceanWise;
-                        if (icon == 'oceanwise') {
+                        if (icon === 'oceanwise') {
                             urlIcon = oceanWise;
-                        } else if (icon == 'veggie') {
+                        } else if (icon === 'veggie') {
                             urlIcon = veggie;
-                        } else if (icon == 'glutenfree') {
+                        } else if (icon === 'glutenfree') {
                             urlIcon = glutenFree;
-                        } else if (urlIcon == 'organic') {
-                            urlIcon = organic;
                         }
                         return (
                             <img src={urlIcon} alt={icon} className="w-6 h-6" />
