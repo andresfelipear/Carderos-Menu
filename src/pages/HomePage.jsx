@@ -27,7 +27,6 @@ export default function HomePage() {
   }
 
   const applyFilter = (value)=>{
-    openModal('test1',"modal");
       if(filterValue===""){
         setFilterValue(value);
         setUseFilter(true);
