@@ -22,6 +22,7 @@ export default function HomePage() {
       else{
         setFilterValue("");
         setUseFilter(false);
+        
       }
   }
 
@@ -51,7 +52,7 @@ export default function HomePage() {
                 return;
               }
               return(
-                <Accordion useFilter={useFilter} key={section.name} title={section.name} content={<div className='grid grid-cols-2 gap-x-12'>
+                <Accordion open={useFilter} key={section.name} title={section.name} content={<div className='grid grid-cols-2 gap-x-12'>
                   {meals.map((meal)=>{
                     return(
                       <Meal key={meal.name} title={meal.name} price={meal.price} description={meal.description} icons={meal.options} />
