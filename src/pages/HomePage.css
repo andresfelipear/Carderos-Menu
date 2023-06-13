@@ -39,3 +39,16 @@ main .menu-section ul li .active {
 main img {
     margin-right: 10px;
 }
+
+@media (max-width: 425px) {
+    main h1+ul li {
+        display: flex;
+        padding: 0 6px;
+        border-right: 1px solid #3D3D39;
+        align-items: center;
+        cursor: pointer;
+    }
+    main img {
+        margin-right: 2px;
+    }
+  }

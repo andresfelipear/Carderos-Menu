@@ -46,7 +46,7 @@ export default function HomePage() {
 
   return (
     <main className='bg-secondary py-12' >
-      <div className='px-8'>
+      <div className='px-4 md:px-8'>
         <h1 className='mb-6 text-[46px] text-center uppercase font-sans tracking-wider'>Menus</h1>
         <ul className='flex justify-center text-xs items-center mb-5'>
           <li onClick={() => { applyFilter('oceanwise') }} className={filterValue === "oceanwise" ? 'active' : ''} ><img src={oceanWise} alt="" /><span>Oceanwise</span></li>
@@ -54,12 +54,12 @@ export default function HomePage() {
           <li onClick={() => { applyFilter('glutenfree') }} className={filterValue === "glutenfree" ? 'active' : ''}><img src={glutenFree} alt="" /><span>Gluten-Free</span></li>
         </ul>
         <div className='menu-section bg-basic max-w-screen-lg m-auto'>
-          <ul className='flex justify-center text-base uppercase items-center bg-[#BD3F39] text-basic'>
+          <ul className='flex justify-center text-xs md:text-base  uppercase items-center bg-[#BD3F39] text-basic'>
             <li ><span className='active'>Dinner Menu</span></li>
             <li ><span>Lunch Menu</span></li>
             <li><span>Wine</span></li>
           </ul>
-          <div className='mt-12 px-4 sm:px-12 pb-16 mx-auto'>
+          <div className='mt-12 px-4 md:px-12 pb-16 mx-auto'>
             <p className='text-center text-sm'>Available from 4pm daily</p>
             {data.categories.map((section) => {
               let meals = section.items;
