@@ -1042,7 +1042,7 @@
                     "price": 12.5,
                     "image": "https://matsuno.shop/images/photos/1663136966-U7SiqyzpIGVjctiNgXr5Zew9X6BWoIUaF5W93lIQeuP3T7pwZi.png",
                     "description": "vanilla bean gelato",
-                    "allergy_alert": "Gluten, Dairy, Egg, Nuts",
+                    "allergy_alert": ["Gluten", "Dairy", "Egg", "Nuts"],
                     "preparationTime": "2 Minutes",
                     "ingredients": [
                         "Dark Chocolate",

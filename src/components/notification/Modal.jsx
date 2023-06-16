@@ -19,7 +19,7 @@ const Modal = ({ isOpen, onClose, meal }) => {
             <p className='italic mb-6'>{meal.description}</p>
             <p className='my-2 '>
               <p className='mr-6 mb-2 font-bold'>Allergies:</p>
-              <div className='flex flex-wrap justify-between gap-1 w-fit'>
+              <div className='flex flex-wrap justify-between gap-1 md:gap-2 w-fit'>
                 {meal.allergy_alert && meal.allergy_alert.map((allergy) => {
                   return (<div className='bg-[#bd3f39] text-basic px-2 py-1 rounded-md'>{allergy}</div>)
                 })}
