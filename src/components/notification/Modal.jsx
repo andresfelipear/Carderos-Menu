@@ -6,20 +6,25 @@ const Modal = ({ isOpen, onClose, meal }) => {
   return (
     <div className="fixed inset-0 flex items-center justify-center z-50 bg-[#0A0A0ADB] opacity-100">
       <div className="fixed inset-0 bg-black opacity-0"></div>
-      <div className="bg-white w-3/4 md:w-2/4 ">
-        <header className="bg-[#bd3f39] text-white px-8 py-3 flex justify-between">
-          <p className="text-xl font-bold">{meal.name}</p>
+      <div className="bg-white w-fit max-w-[70vw] md:max-w-[60vw]">
+        <header className="bg-[#bd3f39] text-white px-8 py-3 flex justify-between items-center">
+          <p className=" text-lg md:text-xl font-bold">{meal.name}</p>
           <p className="text-sm">{meal.price === "market" ? "" : "$"}{meal.price}</p>
         </header>
         <section className="p-4">
           <div className="flex justify-center">
-            <img className='w-fit' src={meal.image} alt={meal.name} />
+            <img className='w-fit max-h-96 h-auto' src={meal.image} alt={meal.name} />
           </div>
-          <div className='px-6'>
-            <p className='italic'>{meal.description}</p>
-            <p className='mt-2'><strong className='mr-6'>Allergies:</strong> {meal.allergy_alert && meal.allergy_alert.map((allergy) => {
-              return (<span className='mr-4 bg-[#bd3f39] text-basic px-2 py-1 rounded-md'>{allergy}</span>)
-            })}</p>
+          <div className='px-2 md:px-6 max-w-fit md:max-w-screen-md text-xs md:text-base '>
+            <p className='italic mb-6'>{meal.description}</p>
+            <p className='my-2 '>
+              <p className='mr-6 mb-2 font-bold'>Allergies:</p>
+              <div className='flex flex-wrap justify-between gap-1 w-fit'>
+                {meal.allergy_alert && meal.allergy_alert.map((allergy) => {
+                  return (<div className='bg-[#bd3f39] text-basic px-2 py-1 rounded-md'>{allergy}</div>)
+                })}
+              </div>
+            </p>
           </div>
         </section>
       </div>
