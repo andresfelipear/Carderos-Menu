@@ -5,117 +5,278 @@
             "items": [
                 {
                     "name": "HUMMUS",
-                    "price": 17.50,
+                    "price": 17.5,
                     "description": "cilantro pesto, goat feta, dukkah (contains nuts), kalamata olives, warm naan.",
-                    "image":"https://matsuno.shop/images/photos/1662873416-dz7S2jY7O35vPeiAMBN8rgoKI4OVNNvFWsmHHKdCnYZNkzQJHG.png",
-                    "allergies":["celiac", "dairy", "nuts"],
+                    "image": "https://matsuno.shop/images/photos/1662873416-dz7S2jY7O35vPeiAMBN8rgoKI4OVNNvFWsmHHKdCnYZNkzQJHG.png",
                     "options": [
                         "veggie"
+                    ],
+                    "allergy_alert": [
+                        "Garlic",
+                        "Gluten",
+                        "Dairy",
+                        "Citrus",
+                        "Seeds"
+                    ],
+                    "prep_time": "3 Minutes",
+                    "ingredients": [
+                        "3 oz. Hummus: Garbanzo Beans (chick peas), Tahini Paste, Lemon Juice, Sesame Oil, Garlic Olive Oil, Cilantro, Salt, Ground Pepper",
+                        "Warm Naan: Enriched Wheat Flour, Water, Vegetable Oil (Canola & Soybean), Yeast, Sugar, Salt, Yogurt Powder, Nonfat Milk, Sodium Citrate, Sodium Propionate, Calcium Propionate, Potassium Sorbate",
+                        "Marinated Olives: Kalamata Olives, Red, Black, Limone Cerignola & Calabrese Olives, Olive Oil, Basil",
+                        "Roasted Roma Tomatoes: Olive Oil, Garlic, Salt, Pepper"
                     ]
                 },
                 {
                     "name": "FRESH OYSTERS",
                     "price": "market",
                     "description": "served raw on the half shell, any denomination.",
-                    "image":"https://matsuno.shop/images/photos/1662786505-pOMddscvqPz12xLzfLh7e8tr3UuxIZqawzw5LVo7mu6JWbe5Ok.png",
-                    "allergies":["shellfish"],
+                    "image": "https://matsuno.shop/images/photos/1662786505-pOMddscvqPz12xLzfLh7e8tr3UuxIZqawzw5LVo7mu6JWbe5Ok.png",
                     "options": [
                         "oceanwise"
-                    ]
+                    ],
+                    "allergy_alert": [
+                        "Seafood",
+                        "Shellfish",
+                        "Onions",
+                        "Citrus",
+                        "Seeds",
+                        "Soy",
+                        "Alcohol"
+                    ],
+                    "prep_time": "6 Minutes",
+                    "ingredients": [
+                        "Raw Oysters on Half Shell",
+                        "Cocktail Sauce: Horseradish, Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavouring), Worcestershire Sauce, Cilantro, Sambal, Lemon Juice, Salt, Ground Pepper",
+                        "Tarragon Horseradish Mustard Sauce: Celery, Parsley, Green Onion, Fresh Tarragon, White Wine Vinegar, Olive Oil, Dijon Mustard, Horseradish, Rice Vinegar, Ground Pepper"
+                    ],
+                    "garnish": "Lemon Wedge & Cilantro"
                 },
                 {
                     "name": "PRAWN COCKTAIL",
                     "price": 23,
                     "description": "chilled black tiger prawns, cocktail & tarragon horseradish sauce.",
-                    "image":"https://matsuno.shop/images/photos/1663133345-SZZNSQrf8xlJuZFfiIpkApVf6gm5cEWISWxock95nlcc1AUwO8.png",
-                    "allergies":["shellfish"],
+                    "image": "https://matsuno.shop/images/photos/1663133345-SZZNSQrf8xlJuZFfiIpkApVf6gm5cEWISWxock95nlcc1AUwO8.png",
                     "options": [
                         "oceanwise"
-                    ]
+                    ],
+                    "allergy_alert": [
+                        "Seafood",
+                        "Shellfish",
+                        "Onions",
+                        "Citrus",
+                        "Seeds",
+                        "Soy"
+                    ],
+                    "prep_time": "8 Minutes",
+                    "ingredients": [
+                        "Chilled Black Tiger Prawns: Water, Salt",
+                        "Cocktail Sauce: Horseradish, Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavouring), Worcestershire Sauce, Cilantro, Sambal, Lemon Juice, Salt, Ground Pepper",
+                        "Tarragon Horseradish Mustard Sauce: Celery, Parsley, Green Onion, Fresh Tarragon, White Wine Vinegar, Olive Oil, Dijon Mustard, Horseradish, Rice Vinegar, Ground Pepper"
+                    ],
+                    "garnish": "Lemon Wedge & Cilantro"
                 },
                 {
                     "name": "BBQ RIBS",
                     "price": 19,
                     "description": "honey, molasses, forno baked.",
-                    "image":"https://matsuno.shop/images/photos/1662785067-nKJkuR2jogw7vZ30ZobYjlRWSo5ygRNMdViNd4YYTQRXahS7AZ.png",
+                    "image": "https://matsuno.shop/images/photos/1662785067-nKJkuR2jogw7vZ30ZobYjlRWSo5ygRNMdViNd4YYTQRXahS7AZ.png",
                     "options": [
                         "glutenfree"
+                    ],
+                    "allergy_alert": [
+                        "Garlic",
+                        "Seeds"
+                    ],
+                    "prep_time": "10 Minutes",
+                    "ingredients": [
+                        "4 Pork Ribs; Dry Rub: Ground Pepper, Cayenne Pepper, White Pepper, Celery Seed, Chili Powder, Cumin, Brown Sugar, Paprika, Salt",
+                        "Rib Baste: Garlic, Molasses, Grainy Dijon Mustard, Cider Vinegar, Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavouring), Brown Sugar, Tabasco, Honey, Apricot Glaze, Ground Pepper"
                     ]
                 },
                 {
                     "name": "MUSSELS",
                     "price": 24,
                     "description": "1 lb of blue shell mussels in coconut curry sauce, herbs, focaccia.",
-                    "image":"https://matsuno.shop/images/photos/1663136117-ysmOkhdkhpdREQt3idBxV87vUpQqtgaBX36FWAo7RhVABZAMMd.png",
+                    "image": "https://matsuno.shop/images/photos/1663136117-ysmOkhdkhpdREQt3idBxV87vUpQqtgaBX36FWAo7RhVABZAMMd.png",
                     "options": [
                         "oceanwise"
-                    ]
+                    ],
+                    "allergy_alert": [
+                        "Seafood",
+                        "Shellfish",
+                        "Onion",
+                        "Garlic",
+                        "Gluten",
+                        "Alcohol"
+                    ],
+                    "prep_time": "6 Minutes",
+                    "ingredients": [
+                        "1 lb. Blue Shell Mussels",
+                        "Thai Style Coconut Curry Broth: Garlic, Ginger, Red Curry Paste, Honey, Olive Oil, Chili Garlic Sauce, Pineapple Juice, Coconut Milk, Mango, Scallions, Cilantro, Thai Basil, Salt, Ground Pepper, Fish Sauce"
+                    ],
+                    "garnish": "Grilled Focaccia"
                 },
                 {
                     "name": "FRIED OYSTERS",
                     "price": 17,
                     "description": "cocktail & horseradish tarragon sauce",
-                    "image":"https://matsuno.shop/images/photos/1662787561-3ij6pHC94oMpoih1lJrxmJGWB12UrtXX1wrc5mxLTL8rTvRxpw.png",
+                    "image": "https://matsuno.shop/images/photos/1662787561-3ij6pHC94oMpoih1lJrxmJGWB12UrtXX1wrc5mxLTL8rTvRxpw.png",
                     "options": [
                         "oceanwise"
+                    ],
+                    "allergy_alert": [
+                        "Seafood",
+                        "Onions",
+                        "Garlic",
+                        "Dairy",
+                        "Citrus",
+                        "Seeds"
+                    ],
+                    "prep_time": "4 Minutes",
+                    "ingredients": [
+                        "5 oz. Oysters: Pan Fried, Old Bay Seasoning, Cornmeal, Buttermilk, Cajun Seasoning",
+                        "Cocktail Sauce: Horseradish, Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavouring), Worcestershire Sauce (anchovies), Lemon Juice, Salt, Ground Pepper",
+                        "Tarragon Horseradish Mustard Sauce: Celery, Parsley, Green Onion, Fresh Tarragon, Tarragon Vinegar, Olive Oil, Dijon Mustard, Horseradish, Rice Vinegar, Ground Pepper"
                     ]
                 },
                 {
                     "name": "HAR GOW",
                     "price": 18.5,
                     "description": "1/2 dozen shrimp dumplings with hot mustard, chili sauce *contains pork.",
-                    "image":"https://matsuno.shop/images/photos/1662786959-DijqM1J26GQwVLWAsKF3CGvNp31d7nWs9KHKM75z6eIkeoT8Yo.png"
+                    "image": "https://matsuno.shop/images/photos/1662786959-DijqM1J26GQwVLWAsKF3CGvNp31d7nWs9KHKM75z6eIkeoT8Yo.png",
+                    "allergy_alert": [
+                        "Seafood",
+                        "Shellfish",
+                        "Gluten"
+                    ],
+                    "prep_time": "6 Minutes",
+                    "ingredients": [
+                        "Shrimp Mix: Shrimp, Pork Fat, MSG, Flour",
+                        "Rice Paper (contains pork fat)",
+                        "Hot Mustard: Hot Mustard Paste & Water",
+                        "Chili Hot Sauce: Vinegar, Chili, Salt, MSG"
+                    ]
                 },
                 {
                     "name": "MARGHERITA PIZZA",
                     "price": 19,
                     "description": "Italian 00 flour, roma tomato sauce, basil, mozzarella, fior di latte.",
-                    "allergies":["celiac", "dairy"],
-                    "image":"https://matsuno.shop/images/photos/1664084973-pnoIA8pcps7VnL4vx28w38duo635HJmDdF5NwMucZFaeb9CEkY.jpg",
+                    "image": "https://matsuno.shop/images/photos/1664084973-pnoIA8pcps7VnL4vx28w38duo635HJmDdF5NwMucZFaeb9CEkY.jpg",
                     "options": [
                         "veggie"
-                    ]
+                    ],
+                    "allergyAlert": [
+                        "Garlic",
+                        "Gluten",
+                        "Dairy"
+                    ],
+                    "preparationTime": "8 Minutes",
+                    "ingredients": [
+                        "5 oz. Pizza Dough: All Purpose Flour, Semolina Flour, Olive Oil, Fresh Yeast, Salt",
+                        "2 fl oz. Tomato Sauce: Roasted Roma Tomatoes, Garlic, Salt, Ground Pepper, Basil, Tarragon, Chili",
+                        "3 oz. Shredded Mozzarella Cheese, 1.5 oz Fior De Latte"
+                    ],
+                    "glutenFreeOption": "Gluten-Free Dough Available Upon Request"
                 },
                 {
                     "name": "PROSCIUTTO & ARUGULA PIZZA",
                     "price": 27,
                     "description": "Italian 00 flour, extra virgin olive oil.",
-                    "image":"https://matsuno.shop/images/photos/1682221153-ykSmV0TPfNYRkBSa64VO13uyo73jFBGPrHl6pTfXS3Kjn7h1cP.jpg"
+                    "image": "https://matsuno.shop/images/photos/1682221153-ykSmV0TPfNYRkBSa64VO13uyo73jFBGPrHl6pTfXS3Kjn7h1cP.jpg",
+                    "allergyAlert": [
+                        "Garlic",
+                        "Gluten",
+                        "Dairy"
+                    ],
+                    "preparationTime": "8 Minutes"
                 },
                 {
                     "name": "ITALIAN MEATBALLS",
                     "price": 18.5,
                     "description": "organic grass-fed beef, roma tomato sauce, grana padano, basil.",
-                    "allergies":["dairy"],
-                    "image":"https://matsuno.shop/images/photos/1663138088-x4feHNBtoXW4OtYAuKLRiHClGaCSW7MivSK8jtdLnxbXODVXg1.png"
+                    "image": "https://matsuno.shop/images/photos/1663138088-x4feHNBtoXW4OtYAuKLRiHClGaCSW7MivSK8jtdLnxbXODVXg1.png",
+                    "allergy_alert": [
+                        "Onion",
+                        "Garlic",
+                        "Gluten",
+                        "Dairy",
+                        "Eggs"
+                    ],
+                    "prep_time": "7 Minutes",
+                    "ingredients": [
+                        "3 x 3 oz Meatballs: Fresh Grass-Fed Beef, Panko, Milk, Garlic Powder, Garlic Chili Sauce, Romano Cheese, Thyme, Parsley, Salt, Pepper, Eggs, Onions, Fresh Basil",
+                        "Tomato Sauce: Roasted Roma Tomatoes, Garlic, Salt, Ground Pepper",
+                        "Grana Padano Cheese"
+                    ],
+                    "garnish": "Basil"
                 },
                 {
                     "name": "TUNA TATAKI",
                     "price": 23,
                     "description": "pickled green papaya, ponzu, edamame, grapefruit, avocado.",
-                    "image":"https://matsuno.shop/images/photos/1664256014-qoDAnQw1Ijb4oKPPCNcc43BphxVqB3LqnfFpFb1DonZrPPG6zx.png"
+                    "image": "https://matsuno.shop/images/photos/1664256014-qoDAnQw1Ijb4oKPPCNcc43BphxVqB3LqnfFpFb1DonZrPPG6zx.png"
                 },
                 {
                     "name": "SIGNATURE WOK SQUID",
                     "price": 19,
                     "description": "flash-fried, garlic, chilies, onions, chili caesar sauce.",
-                    "allergies":["celiac", "dairy", "garlic", "onions", "cilantro"],
-                    "image":"https://matsuno.shop/images/photos/1662874141-RS8u0na81XjPPCXkSp70QPoGY6e3kogpjNumZrsDbEq293wOvU.png"
+                    "image": "https://matsuno.shop/images/photos/1662874141-RS8u0na81XjPPCXkSp70QPoGY6e3kogpjNumZrsDbEq293wOvU.png",
+                    "allergy_alert": [
+                        "Seafood",
+                        "Shellfish",
+                        "Onion",
+                        "Garlic",
+                        "Gluten",
+                        "Egg",
+                        "Citrus",
+                        "Soy",
+                        "(Cross Contamination; Seafood, Shellfish, Nuts)"
+                    ],
+                    "prep_time": "4 Minutes",
+                    "ingredients": [
+                        "8 oz. U5 Vietnamese Squid Tubes: Wok Fried battered with Egg, Cornstarch Garlic, Ginger, White & Green Onion, Vietnamese Garlic Hot Sauce, Jalapeno Chili Pepper, Cilantro, Vegetable Oil, Salt",
+                        "Chili-Caesar Sauce: Egg Yolks, Pasteurized Egg, Garlic, Anchovies, Ground Pepper, Worcestershire Sauce, Dijon Mustard, Garlic-Chili Sauce"
+                    ],
+                    "garnish": "Lemon Wedge & Cilantro"
                 },
                 {
                     "name": "SWEET & SOUR CHICKEN",
                     "price": 16,
                     "description": "flash-fried, green onions, bean sprouts, sesame seeds.",
-                    "image":"https://matsuno.shop/images/photos/1662876395-o4USO8YAoveDopRCrpHME65dSyeCQeZqWTFYqpELnnS30uBFrH.png"
+                    "image": "https://matsuno.shop/images/photos/1662876395-o4USO8YAoveDopRCrpHME65dSyeCQeZqWTFYqpELnnS30uBFrH.png",
+                    "allergy_alert": [
+                        "Garlic",
+                        "Gluten",
+                        "Citrus",
+                        "Seeds (Cross Contamination; Seafood, Shellfish, Nuts)"
+                    ],
+                    "prep_time": "4 Minutes",
+                    "ingredients": [
+                        "7 oz. Chicken: Garlic, Deep Fried then Wok Fried",
+                        "Sweet & Sour Sauce: Honey, Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavoring), Sugar, White Wine Vinegar, Lemon Juice, Tabasco Sauce"
+                    ],
+                    "garnish": "Green Onion & Sesame Seeds"
                 },
                 {
                     "name": "THAI CURRY PRAWNS",
                     "price": 24.50,
                     "description": "snow peas, red peppers, basil, peanuts, wok fried or steamed rice",
-                    "options": [
-                        "glutenfree"
+                    "options": [],
+                    "image": "https://matsuno.shop/images/photos/1662874443-xaSDXONih5oKQRSHD4J81cGOBdIYdCoMygtFUtqKTzAfwAbaXw.png",
+                    "allergy_alert": [
+                        "Seafood",
+                        "Shellfish",
+                        "Onions",
+                        "Gluten",
+                        "Soy"
                     ],
-                    "image":"https://matsuno.shop/images/photos/1662874443-xaSDXONih5oKQRSHD4J81cGOBdIYdCoMygtFUtqKTzAfwAbaXw.png"
+                    "prep_time": "4 Minutes",
+                    "ingredients": [
+                        "8 x 21/25 Prawns: Wok Fried",
+                        "Red Pepper, Green Beans, Thai Basil, Coconut Red Curry Sauce"
+                    ],
+                    "served_with": "Wok Fried Rice",
+                    "garnish": "Lime Wedge, Cilantro"
                 },
                 {
                     "name": "SZECHUAN BEANS",
@@ -124,7 +285,18 @@
                     "options": [
                         "veggie"
                     ],
-                    "image":"https://matsuno.shop/images/photos/1662876866-zyxj7dKHabYborRmzvGfYAES1qPVqatp2x0eMtQcWJIuETQ8we.png"
+                    "image": "https://matsuno.shop/images/photos/1662876866-zyxj7dKHabYborRmzvGfYAES1qPVqatp2x0eMtQcWJIuETQ8we.png",
+                    "allergy_alert": [
+                        "Garlic",
+                        "Soy",
+                        "Gluten",
+                        "(Cross Contamination; Seafood, Shellfish, Nuts)"
+                    ],
+                    "prep_time": "5 Minutes",
+                    "ingredients": [
+                        "Wok Fried",
+                        "Garlic, Chili, Ginger, Tamari, Sugar"
+                    ]
                 }
             ]
         },
@@ -137,7 +309,28 @@
                     "description": "forno baked BBQ ribs, grilled prawns, salmon & scallops, lemon caper beurre blanc",
                     "options": [
                         "glutenfree"
-                    ]
+                    ],
+                    "image": "https://matsuno.shop/images/photos/1663138616-hCJbmVRhfkBZfJGWJc8DpgbzbhSdwrWqlLeih78BrYHsURxQ6U.png",
+                    "allergy_alert": [
+                        "Seafood",
+                        "Shellfish",
+                        "Onions",
+                        "Garlic",
+                        "Dairy",
+                        "Citrus",
+                        "Seeds",
+                        "Alcohol"
+                    ],
+                    "prep_time": "8 Minutes",
+                    "ingredients": [
+                        "4 oz Steelhead Salmon: Salt & Pepper",
+                        "1 Prawn Skewer (5): Salt, Pepper, Vegetable Oil",
+                        "1 Skewer of Scallops (4): Salt, Pepper, Vegetable Oil",
+                        "Lemon Caper Beurre Blanc: White Wine, Vinegar, Shallots, Peppercorn, Lemon Juice, Cream, Butter",
+                        "4 Pork Ribs, Dry Rub: Ground Pepper, Cayenne Pepper, White Pepper, Celery Seed, Chili Powder, Cumin, Brown Sugar, Paprika, Salt",
+                        "Rib Baste: Garlic, Molasses, Grainy Dijon Mustard, Cider Vinegar, Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavoring), Brown Sugar, Tabasco, Honey, Apricot Glaze, Ground Pepper"
+                    ],
+                    "garnish": "Lemon Wedge & Cilantro"
                 },
                 {
                     "name": "DOCKSIDE PLATTER",
@@ -145,12 +338,55 @@
                     "description": "one dozen fresh oysters, chilled clams, prawns, mussels & crab claws, ahi tuna tataki, salmon poke, miso-ginger viniagrette, red wine mignonette, cocktails sauce",
                     "options": [
                         "oceanwise"
-                    ]
+                    ],
+                    "image": "https://matsuno.shop/images/photos/1664086232-ZfJueaWKK0UWy2YqjJo5UnvEm0ylgMGnki6lWc3n0GFKlMT83F.jpg",
+                    "allergy_alert": [
+                        "Seafood",
+                        "Shellfish",
+                        "Gluten",
+                        "Onion",
+                        "Garlic",
+                        "Citrus",
+                        "Seeds",
+                        "Soy",
+                        "Alcohol"
+                    ],
+                    "prep_time": "8 Minutes",
+                    "ingredients": [
+                        "Chilled Clams (1/2 lb), Mussels (1/2 lb), Raw Oysters on the half shell (12), Prawns (6), Ahi Tuna (3 oz), Snow Crab Claw (6)",
+                        "2 oz. Steelhead Salmon Poke: Tamari, Sesame Oil, Sesame Seeds, Salt, Green Onion, Garlic Chili Sauce",
+                        "Miso Soy Vinaigrette: Miso, Soy, Ginger, Dijon, Rice Vinegar, Lime Juice, Shallots, Olive Oil, Vegetable Oil, Mirin, Sake, Chili Sauce",
+                        "Red Wine Mignonette: Red Wine, Red Wine Vinegar, Shallots, Pepper",
+                        "Cocktail Sauce: Horseradish, Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavoring), Worcestershire Sauce, Cilantro, Sambal, Lemon Juice, Salt, Ground Pepper"
+                    ],
+                    "garnish": "Lemon Wedge"
                 },
                 {
                     "name": "HARBOUR PLATTER",
                     "price": 49,
-                    "description": "prosciutto, seared albacore tuna, chilled prawns, hummus, feta, roasted tomatoes, olives, pita"
+                    "image": "https://matsuno.shop/images/photos/1663188111-8vmD3UNs5BY7tFSabKBicvtLGwVkwFQHIDlP7He6a2bkd1MWTg.jpg",
+                    "description": "prosciutto, seared albacore tuna, chilled prawns, hummus, feta, roasted tomatoes, olives, pita",
+                    "allergy_alert": [
+                        "Seafood",
+                        "Shellfish",
+                        "Onions",
+                        "Gluten",
+                        "Dairy",
+                        "Citrus",
+                        "Seeds",
+                        "Soy",
+                        "Alcohol"
+                    ],
+                    "prep_time": "9 Minutes",
+                    "ingredients": [
+                        "Prosciutto, Feta Cheese, Mixed Olives",
+                        "3 oz. Seared Albacore Tuna (4 Pieces): sliced, Black & Shiro Japanese Sesame Seeds, Olive Oil",
+                        "4 x Chilled Prawns",
+                        "Cocktail Sauce: Horseradish, Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavoring), Worcestershire Sauce, Lemon Juice, Salt, Ground Pepper",
+                        "Hummus: Garbanzo Beans (chick peas), Tahini Paste, Lemon Juice, Sesame Oil, Garlic Olive Oil, Cilantro, Salt, Ground Pepper",
+                        "Warm Naan: Enriched Wheat Flour, Water, Vegetable Oil (Canola & Soybean), Yeast, Sugar, Salt, Yogurt Powder, Nonfat Milk, Sodium Citrate, Sodium Propionate, Calcium Propionate, Potassium Sorbate",
+                        "Roasted Roma Tomatoes: Olive Oil, Garlic, Salt, Pepper"
+                    ]
                 }
             ]
         },
@@ -164,36 +400,95 @@
                 {
                     "name": "MANHATTAN STYLE CLAM CHOWDER",
                     "price": 13,
+                    "image": "https://matsuno.shop/images/photos/1663132152-Or0snLrkrSCpONR8qFoCYUrtUSUvUdaW6Sxp3ThO4Ja1ZgIXuG.png",
                     "options": [
                         "glutenfree"
+                    ],
+                    "allergy_alert": [
+                        "Seafood",
+                        "Shellfish",
+                        "Onion",
+                        "Garlic",
+                        "Citrus",
+                        "Soy",
+                        "Alcohol"
+                    ],
+                    "prep_time": "2 Minutes",
+                    "ingredients": [
+                        "3 oz. Clams, Clam Base, Fish Stock, Potatoes, Extra Virgin Olive Oil, Onions, Carrots, Celery, Leeks, Green Pepper, Jalapeno, Chili, Ground Pepper, Garlic, Lime Juice, Tomato Paste, Peeled Tomato Strips, Minced Parsley, Havana Club Dark Rum 1 fl oz.",
+                        "Worcestershire Sauce (Anchovy), Cracked Peppercorn, Thyme, Bay Leaf, Celery Salt"
                     ]
                 },
                 {
                     "name": "CAESAR SALAD",
                     "price": 14.50,
-                    "description": "asiago cheese, garlic croutons, crisp capers."
+                    "image": "https://matsuno.shop/images/photos/1662961357-alulcy6gF4c7sKc93MLRNtPl7Qa8HfdwMjn26ZdyZwLY7FAYYO.png",
+                    "description": "asiago cheese, garlic croutons, crisp capers.",
+                    "allergy_alert": [
+                        "Seafood",
+                        "Garlic",
+                        "Gluten",
+                        "Dairy",
+                        "Egg",
+                        "Citrus",
+                        "Soy"
+                    ],
+                    "prep_time": "2 Minutes",
+                    "ingredients": [
+                        "3 oz. Romaine Lettuce Hearts",
+                        "Caesar Dressing: Egg Yolks, Pasteurized Egg, Garlic, Anchovies, Ground Pepper, Worcestershire Sauce, Dijon Mustard",
+                        "Crisp Capers, Asiago Cheese",
+                        "Italian Cheese Crouton"
+                    ],
+                    "garnish": "Lemon Wedge"
                 },
                 {
                     "name": "MEDITERRANEAN SALAD",
                     "price": 19,
+                    "image": "https://matsuno.shop/images/photos/1662963265-pTtuASiGrNALXszb8qv4JUIJQ23sboWr9Gxn5rjL8rmjmjs0ks.png",
                     "description": "bell peppers, tomatoes, cucumbers, olives, onions, goat feta.",
                     "options": [
                         "glutenfree",
                         "veggie"
+                    ],
+                    "allergy_alert": [
+                        "Onion",
+                        "Dairy",
+                        "Citrus"
+                    ],
+                    "prep_time": "5 Minutes",
+                    "ingredients": [
+                        "Hearts of Romaine, Tomatoes, Cucumber, Olives, Bell Peppers, Red Onion, Goat’s Feta Cheese, Oregano, Lemon Juice, Olive Oil, Fresh Cracked Pepper"
                     ]
                 },
                 {
                     "name": "AVOCADO, TOMATO & ALBACORE",
                     "price": 24.5,
+                    "image": "https://matsuno.shop/images/photos/1662877168-lZLlYJxez9wvwKWFWVVJBHiRLQDWYFhlPQPWfVE1Soa5xcGwAN.png",
                     "description": "sesame crusted Albacore tuna, Thai basil, ponzu",
                     "options": [
                         "oceanwise",
                         "glutenfree"
+                    ],
+                    "allergy_alert": [
+                        "Seafood",
+                        "Gluten",
+                        "Citrus",
+                        "Seeds",
+                        "Soy",
+                        "Alcohol"
+                    ],
+                    "prep_time": "3 Minutes",
+                    "ingredients": [
+                        "3 oz Albacore Tuna: Wasabi, Black & White Sesame Seeds, Black Pepper, Salt, Vegetable Canola Oil",
+                        "Thai Basil, Extra Virgin Olive Oil, Grape Tomatoes, Baby Arugula, Salt, Avocado",
+                        "Ponzu Sauce: Soy Sauce, Water, Vinegar, Sugar, Salt, Bonito Extract, Lactic Acid, Lemon Juice, Autolyzed Yeast Extract, Natural Lemon & Orange Flavours, Sodium Benzoate, Succinic Acid, Disodium Inosinate, Disodium Guanylate"
                     ]
                 },
                 {
                     "name": "KALE & QUINOA SALAD",
                     "price": 19,
+                    "image": "https://matsuno.shop/images/photos/1669504675-hTERPz4QmspUxUAozqsehqtE5F4Hmw5oNfRDMGbdz1Qmul2g0j.jpg",
                     "description": "baby kale, avocado, strawberries, tomatoes, almonds, goat’s cheese, pickled fennel.",
                     "options": [
                         "veggie",
@@ -208,37 +503,100 @@
                 {
                     "name": "PRAWN SIZZLE",
                     "price": 18.5,
-                    "description": "white wine, garlic, lemon, butter, focaccia."
+                    "image": "https://matsuno.shop/images/photos/1662875173-KlvjWauiD8XVuLEdqfgkiCXMA9cdB74C1oHRMdkDpRsnBG4Fwq.png",
+                    "description": "white wine, garlic, lemon, butter, focaccia.",
+                    "allergyAlert": [
+                        "Seafood",
+                        "Shellfish",
+                        "Garlic",
+                        "Gluten",
+                        "Dairy",
+                        "Citrus",
+                        "Alcohol"
+                    ],
+                    "preparationTime": "5 Minutes",
+                    "ingredients": [
+                        "8 x 21/25 Prawns: Butter, Garlic, Lemon, White Wine"
+                    ],
+                    "garnish": "Grilled Focaccia"
                 },
                 {
                     "name": "CRISPY BRUSSEL SPROUTS",
                     "price": 12,
+                    "image": "https://matsuno.shop/images/photos/1662786012-lDTw49OxUGXgseHOUjOBjmNWiR2MfiynYtNRmc7gMySXThqoXY.png",
                     "description": "lemon pepper, chili, grana padano.",
                     "options": [
                         "veggie"
+                    ],
+                    "allergyAlert": [
+                        "Dairy",
+                        "Citrus"
+                    ],
+                    "preparationTime": "6 Minutes",
+                    "ingredients": [
+                        "Brussels Sprouts",
+                        "Lemon Pepper Spice",
+                        "Olive Oil",
+                        "Parmesan",
+                        "Lemon Juice",
+                        "Salt"
                     ]
                 },
                 {
                     "name": "CAST IRON MUSHROOMS",
                     "price": 11,
+                    "image": "https://matsuno.shop/images/photos/1662787862-iBJsLakhLo4Cgp83UNCy6W2C2dpa3MqZ30bJOZUZgLajpwicQv.png",
                     "description": "garlic butter & herbs",
                     "options": [
                         "veggie",
                         "glutenfree"
+                    ],
+                    "allergyAlert": [
+                        "Garlic",
+                        "Dairy"
+                    ],
+                    "preparationTime": "4 Minutes",
+                    "ingredients": [
+                        "8 oz. Mushrooms: Cooked in a Cast Iron Skillet",
+                        "Butter",
+                        "Salt",
+                        "Garlic"
                     ]
                 },
                 {
                     "name": "FORNO ROASTED POTATOES",
                     "price": 9,
+                    "image": "https://matsuno.shop/images/photos/1663137336-gmIGlQqhYoTbjC2oBdYxftxn7ckRwybVVmOiiuCEnR1pv1uA1h.png",
                     "description": "Forno Roasted Potatoes V GF fingerling & nugget potatoes, rosemary",
                     "options": [
                         "veggie",
                         "glutenfree"
+                    ],
+                    "allergyAlert": [
+                        "Garlic"
+                    ],
+                    "preparationTime": "4 Minutes",
+                    "ingredients": [
+                        "6 oz. Baby Red Potatoes & Fingerling Potatoes: Parsley",
+                        "Extra Virgin Olive Oil",
+                        "Black Pepper",
+                        "Salt",
+                        "Garlic Powder",
+                        "Rosemary"
                     ]
                 },
                 {
-                    "name": "HOUSEMADE FOCACCIA",
+                    "name": "Housemade Focaccia (V)",
+                    "allergy_alert": [
+                        "Gluten"
+                    ],
+                    "prep_time": "2 Minutes",
+                    "ingredients": [
+                        "Focaccia Bread (Sliced): Salt, Sugar, Yeast, Pizza Flour, Semolina Durum, Rosemary"
+                    ],
+                    "served_with": "Balsamic Vinegar & Extra Virgin Olive Oil",
                     "price": 7,
+                    "image": "https://matsuno.shop/images/photos/1663137703-ZK5CFcv5sDRLhnYUkGmD3xbABEEqcgBcRPkbObJ48uKSRwKMtv.png",
                     "options": [
                         "veggie"
                     ]
@@ -246,35 +604,54 @@
                 {
                     "name": "CHARRED BROCCOLINI",
                     "price": 12,
+                    "image": "https://matsuno.shop/images/photos/1662784896-swloDr3ZSIsyCi8VPBoapR2ri2BIJztI9O3dU0BbYdIsXmdzPT.png",
                     "description": "lemon, herbs, grana padano, cracked chili.",
                     "options": [
                         "veggie",
                         "glutenfree"
+                    ],
+                    "allergyAlert": [
+                        "Citrus",
+                        "Dairy",
+                        "Citrus"
+                    ],
+                    "preparationTime": "4 Minutes",
+                    "ingredients": [
+                        "8 oz. Broccolini: Crushed Red Chili",
+                        "Lemon",
+                        "Extra Virgin Olive Oil",
+                        "Salt",
+                        "Lemon Parsley Oil",
+                        "Parmesan Cheese"
                     ]
                 },
                 {
                     "name": "PARMESAN TRUFFLE FRIES",
                     "price": 12,
+                    "image": "https://matsuno.shop/images/photos/1662962327-gbBZHWH30gYSEXiZ56NxxI5ewW3JMcMe4vaufM1prvM2pPz57K.png",
                     "description": "roasted garlic aioli",
                     "options": [
                         "veggie"
-                    ]
+                    ],
+                    "allergy_alert": [
+                        "Garlic",
+                        "Dairy",
+                        "Egg"
+                    ],
+                    "prep_time": "5 Minutes",
+                    "ingredients": [
+                        "8 oz Fries: Truffle Oil, Kosher Salt, Parsley, Parmesan"
+                    ],
+                    "served_with": "Roasted Garlic Aioli"
                 },
                 {
                     "name": "WARM OLIVES",
                     "price": 8,
+                    "image": "https://matsuno.shop/images/photos/1664255705-gyL6v5D95UtPwI7vxELFIAXvHHOwURydfrHEN35zARsi0RQdAs.jpg",
                     "description": "olive oil, fennel seeds, lemon.",
                     "options": [
                         "veggie",
                         "glutenfree"
-                    ]
-                },
-                {
-                    "name": "SZECHUAN BEANS",
-                    "price": 12.50,
-                    "description": "ginger, chili, garlic.",
-                    "options": [
-                        "veggie"
                     ]
                 }
             ]
@@ -285,65 +662,179 @@
                 {
                     "name": "CARDERO’S SIGNATURE CEDAR PLANK SALMON",
                     "price": 32.5,
+                    "image": "https://matsuno.shop/images/photos/1662783166-dEEsHI8fNebvRPgmQoslUuGPfd8OR65wM359pm5rKDLQS5lzs8.png",
                     "description": "prepared medium unless otherwise requested, brown sugar, soy, wok fried rice, market vegetables",
                     "options": [
                         "glutenfree"
-                    ]
+                    ],
+                    "allergy_alert": [
+                        "Seafood",
+                        "Onion",
+                        "Citrus",
+                        "Soy"
+                    ],
+                    "prep_time": "6 Minutes",
+                    "ingredients": [
+                        "6 oz. Atlantic Salmon Filet: Baked to medium doneness",
+                        "Soy Glaze: Soy Sauce, Honey, Lemon Juice, Brown Sugar"
+                    ],
+                    "served_with": "Wok Fried Rice & Market Vegetables"
                 },
                 {
                     "name": "MUSSELS & FRITES",
                     "price": 29,
+                    "image": "https://matsuno.shop/images/photos/1675231188-XktZdeTDfryAoWYZ2O4ibPynFYD6rtIxienWnxkvKuMfy6gkgw.jpg",
                     "description": "1 lb of blue shell mussels in coconut curry sauce, herbs.",
                     "options": [
                         "oceanwise"
+                    ],
+                    "allergy_alert": [
+                        "Seafood",
+                        "Shellfish",
+                        "Onion",
+                        "Garlic",
+                        "Gluten",
+                        "Alcohol"
+                    ],
+                    "prep_time": "6 Minutes",
+                    "ingredients": [
+                        "1 lb. Blue Shell Mussels",
+                        "Thai Style Coconut Curry Broth: Garlic, Ginger, Red Curry Paste, Honey, Olive Oil, Chili Garlic Sauce, Pineapple Juice, Coconut Milk, Mango, Scallions, Cilantro, Thai Basil, Salt, Ground Pepper, Fish Sauce"
                     ]
                 },
                 {
                     "name": "PRAWNS & SCALLOPS",
                     "price": 44,
-                    "description": "sautéed farro, quinoa, spinach, tomatoes, lemon caper butter."
+                    "image": "https://matsuno.shop/images/photos/1662874718-aMDVbJYJy9FtnliuKgx1KR1BGQdplGL6pfhIMuzMv2qUNoRMWO.png",
+                    "description": "sautéed farro, quinoa, spinach, tomatoes, lemon caper butter.",
+                    "allergy_alert": [
+                        "Seafood",
+                        "Shellfish",
+                        "Onion",
+                        "Garlic",
+                        "Gluten",
+                        "Citrus",
+                        "Alcohol"
+                    ],
+                    "prep_time": "8 Minutes",
+                    "ingredients": [
+                        "¼ lb. Black Tiger Prawns: Olive Oil, Sambal, Garlic, Salt & Ground Pepper",
+                        "¼ lb. (4 to 5) Scallops: Vegetable Oil, Salt & Ground Pepper",
+                        "Shallots, Garlic, Fish Stock, Spinach, Grape Tomatoes, Salt, Pepper",
+                        "Lemon Caper Butter: White Wine, Vinegar, Shallots, Peppercorn, Lemon Juice, Cream, Butter"
+                    ],
+                    "served_with": "Farro & Quinoa"
                 },
                 {
                     "name": "ROASTED SABLEFISH",
                     "price": 46,
+                    "image": "https://matsuno.shop/images/photos/1662875553-mpzOXxZ7BGvCE6202d1AxdE3qbGjcP3d8beQ9nu30soCd808vi.png",
                     "description": "miso-sake marinade, wok fried rice, seasonal vegetables.",
                     "options": [
                         "oceanwise",
                         "glutenfree"
-                    ]
+                    ],
+                    "allergy_alert": [
+                        "Seafood",
+                        "Onion",
+                        "Citrus",
+                        "Seeds",
+                        "Soy",
+                        "Alcohol"
+                    ],
+                    "prep_time": "5 Minutes",
+                    "ingredients": [
+                        "7 oz. Sablefish Filet (Black Cod): Marinated in Miso Soy Marinade",
+                        "Miso Soy Marinade: Soy, Miso, Lime Juice, Sugar, Sake",
+                        "Miso Soy Vinaigrette: Miso, Soy, Ginger, Dijon, Rice Vinegar, Lime Juice, Shallots, Olive Oil, Vegetable Oil, Mirin, Sake, Chili Sauce"
+                    ],
+                    "served_with": "Wok Fried Rice & Broccolini"
                 },
                 {
                     "name": "SESAME CRUSTED ALBACORE TUNA",
                     "price": 33,
+                    "image": "https://matsuno.shop/images/photos/1664256275-SuoPpqz0gZ4lKi3LGNckib0i3eG8BNARGJdAqagG1u2MhkjGvw.png",
                     "description": "seared rare, wasabi soy sauce, broccolini.",
                     "options": [
                         "oceanwise",
                         "glutenfree"
-                    ]
+                    ],
+                    "allergy_alert": [
+                        "Seafood",
+                        "Onion",
+                        "Citrus",
+                        "Seeds",
+                        "Soy"
+                    ],
+                    "prep_time": "6 Minutes",
+                    "ingredients": [
+                        "6 oz. Seared Rare Albacore Tuna, Black & Shiro Japanese Sesame Seed; Pan Seared in Olive Oil",
+                        "Soy Mustard Wasabi Dressing: Sesame Oil, Canola Oil, Rice Wine Vinegar, Sweet Mirin, Wasabi Powder, Soya Sauce, Dijon Mustard, Dry Mustard, Grainy Mustard, Shallots"
+                    ],
+                    "served_with": "Steamed Broccolini (6 pieces)"
                 },
                 {
                     "name": "HALF ROASTED CHICKEN",
                     "price": 31,
+                    "image": "https://matsuno.shop/images/photos/1675667211-MjX2bfqcqK8Pzowsw3a44H6IoZb2DlJNNBwMQsgIi3rJEF5MtP.jpg",
                     "description": "roasted potatoes, broccolini, mushrooms, red wine demi-glace.",
                     "options": [
                         "glutenfree"
-                    ]
+                    ],
+                    "allergy_alert": [
+                        "Onion",
+                        "Garlic",
+                        "Citrus",
+                        "Alcohol"
+                    ],
+                    "prep_time": "20 Minutes",
+                    "ingredients": [
+                        "Marinated Cornish Game Hen – Served Skin On, Bone In",
+                        "Red Wine Demi-Glace: Veal Stock, Salt, Red Wine Reduction, Garlic, Thyme, Rosemary, Shallots, Bay Leaf"
+                    ],
+                    "served_with": "Roasted Potatoes & Seasonal Vegetables"
                 },
                 {
                     "name": "10 OZ PORK CHOP",
                     "price": 33.5,
+                    "image": "https://matsuno.shop/images/photos/1664085396-tH0cktpqAYLQJK6vGeKbDLfoV5Oh5WHCQ1iVYaWtjWd9R6woWm.jpg",
                     "description": "from Fraser Valley, prepared medium, apricot-anise demi-glace.",
                     "options": [
                         "glutenfree"
-                    ]
+                    ],
+                    "allergy_alert": [
+                        "Garlic",
+                        "Alcohol"
+                    ],
+                    "prep_time": "12 Minutes",
+                    "ingredients": [
+                        "10 oz. Fraser Valley Pork Chop (Single or Double Cut): Grilled to medium doneness",
+                        "Apricot-Anise Demi-glace: 2 fl oz. Veal Stock, Salt, Port Reduction, Garlic, Thyme, Rosemary, Bay Leaf, Star Anise, Apricot Demi"
+                    ],
+                    "served_with": "Roast Potatoes & Market Vegetables"
                 },
                 {
                     "name": "HALF LAMB RACK",
                     "price": 42,
+                    "image": "https://matsuno.shop/images/photos/1675667482-VHbcEd0Csw2hjl8Wf6v7USOImX2l7PNSqJztl9RvySgvut5iRx.jpg",
                     "description": "marinated in garlic & rosemary, mint chimichurri.",
                     "options": [
                         "glutenfree"
-                    ]
+                    ],
+                    "allergy_alert": [
+                        "Onion",
+                        "Garlic",
+                        "Citrus",
+                        "Seeds",
+                        "Alcohol"
+                    ],
+                    "prep_time": "15 Minutes",
+                    "ingredients": [
+                        "2 Lamb Chops, 4 Bones (11.5 oz)",
+                        "Marinade: Dijon Mustard, Garlic, Chili, Lemon, Rosemary, Olive Oil, Salt & Pepper",
+                        "Red Wine Demi-Glace: Veal Stock, Salt, Red Wine Reduction, Garlic, Thyme, Rosemary, Shallots, Bay Leaf"
+                    ],
+                    "served_with": "Roast Potatoes & Market Vegetables"
                 }
             ]
         },
@@ -353,22 +844,97 @@
                 {
                     "name": "7 OZ GRASS-FED TENDERLOIN.",
                     "price": 48,
-                    "description": "fries, roasted parmesan tomato & broccolini"
+                    "image": "https://matsuno.shop/images/photos/1663131143-7AVhpwjeDDAcJsvxZDPtIsOwPRLcgk4imrpncIVBqcTgqMA8J1.png",
+                    "description": "fries, roasted parmesan tomato & broccolini",
+                    "allergy_alert": [
+                        "Onion",
+                        "Gluten",
+                        "Dairy"
+                    ],
+                    "additionalInfo": "*onion free without ketchup",
+                    "preparationTime": "5-15 Minutes (Based on Temperature)",
+                    "ingredients": [
+                        "7 oz. Grass Fed Tenderloin: Grilled to customer’s preferred doneness",
+                        "Roasted Parmesan Tomato: Olive Oil, Salt, Pepper, Parmesan"
+                    ],
+                    "servedWith": [
+                        "Fries & Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavouring)",
+                        "Roasted Tomato",
+                        "Broccolini"
+                    ]
                 },
                 {
                     "name": "10 OZ PRIME NEW YORK STRIPLOIN",
                     "price": 52,
-                    "description": "fries, roasted parmesan tomato & broccolini"
+                    "image": "https://matsuno.shop/images/photos/1662784056-Jzcu103XdY3n6eammzkPn5A1KPeY3eOLknwJR1GXgA3aQIJPM2.png",
+                    "description": "fries, roasted parmesan tomato & broccolini",
+                    "allergy_alert": [
+                        "Onion",
+                        "Gluten",
+                        "Dairy"
+                    ],
+                    "additionalInfo": "*onion free without ketchup",
+                    "preparationTime": "8 - 13 Minutes",
+                    "ingredients": [
+                        "10 oz. Prime New York Striploin Steak: Grilled to customer’s preferred doneness",
+                        "*Chef recommends rare to medium rare",
+                        "Roasted Parmesan Tomato: Olive Oil, Salt, Pepper, Parmesan"
+                    ],
+                    "servedWith": [
+                        "Fries & Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavouring)",
+                        "Roasted Tomato",
+                        "Broccolini"
+                    ]
                 },
                 {
                     "name": "16 OZ “BONE IN” RIB STEAK",
                     "price": 59,
-                    "description": "fries, roasted parmesan tomato & broccolini"
+                    "image": "https://matsuno.shop/images/photos/1662783838-ufolOnbXOtrn7E2i5HVHstecTeZKcQ6G1vjlpVihWZThqriOEl.png",
+                    "description": "fries, roasted parmesan tomato & broccolini",
+                    "allergy_alert": [
+                        "Onion",
+                        "Gluten",
+                        "Dairy"
+                    ],
+                    "additionalInfo": "*onion free without ketchup",
+                    "preparationTime": "9 - 14 Minutes",
+                    "ingredients": [
+                        "16 oz. Bone In Rib Steak: Grilled to customer’s preferred doneness",
+                        "*Chef recommends medium",
+                        "Roasted Parmesan Tomato: Olive Oil, Salt, Pepper, Parmesan"
+                    ],
+                    "servedWith": [
+                        "Fries & Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavouring)",
+                        "Roasted Tomato",
+                        "Broccolini"
+                    ]
                 },
                 {
                     "name": "NEW YORK & LOBSTER TAIL",
                     "price": 71,
-                    "description": "fries, roasted parmesan tomato & broccolini"
+                    "image": "https://matsuno.shop/images/photos/1663130877-waxHC1ivuyR5PADQ3xrT05FPu2o2pRHyHSkRcQhQ7cNpZ2f1ah.png",
+                    "description": "fries, roasted parmesan tomato & broccolini",
+                    "allergy_alert": [
+                        "Onion",
+                        "Garlic",
+                        "Gluten",
+                        "Dairy",
+                        "Seafood",
+                        "Shellfish"
+                    ],
+                    "additionalInfo": "*onion free without ketchup",
+                    "preparationTime": "8 - 13 Minutes",
+                    "ingredients": [
+                        "10 oz. Prime New York Striploin Steak: Grilled to customer’s preferred doneness",
+                        "*Chef recommends rare to medium rare",
+                        "Roasted Parmesan Tomato: Olive Oil, Salt, Pepper, Parmesan",
+                        "4 oz. Lobster Tail: Garlic, Butter, Black Pepper, Salt"
+                    ],
+                    "servedWith": [
+                        "Fries & Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavouring)",
+                        "Roasted Tomato",
+                        "Broccolini"
+                    ]
                 }
             ]
         },
@@ -378,11 +944,31 @@
                 {
                     "name": "LINGUINI VONGOLE",
                     "price": 29,
-                    "description": "fresh manila clams, grape tomatoes, chili flakes, white wine, herbs."
+                    "image": "https://matsuno.shop/images/photos/1662877581-MHOVcUv1tz9VN5EpFtoU3qgTlbA0zQZg6aB9KqGk2Dr0TNOcIm.png",
+                    "description": "fresh manila clams, grape tomatoes, chili flakes, white wine, herbs.",
+                    "allergy_alert": [
+                        "Seafood",
+                        "Shellfish",
+                        "Onion",
+                        "Garlic",
+                        "Gluten",
+                        "Dairy",
+                        "Citrus",
+                        "Alcohol"
+                    ],
+                    "preparationTime": "6 Minutes",
+                    "ingredients": [
+                        "1 lb. Manila & Baby Clams: Steamed",
+                        "6 oz. Al Dente Linguine",
+                        "White Wine Butter Sauce: 3 fl oz. White Wine, Shallot, Garlic, Grape Tomatoes, Crushed Red Chilies, Parsley, Olive Oil, Butter, Ground Pepper, Salt",
+                        "Fish Stock: White Fish Bones, Celery, Onion, Bay Leaf, Fennel Seed, Lemon, Peppercorn, Water, Salt"
+                    ],
+                    "glutenFreeOption": "Gluten-Free Penne: Outsourced & Available Upon Request"
                 },
                 {
                     "name": "MUSHROOM TAGLIATELLE",
                     "price": 25,
+                    "image": "https://matsuno.shop/images/photos/1669504837-e0rou4KpCXuypb4bqR60q7af7dUTNamiACLJwF1h3whGojSdZL.jpg",
                     "description": "foraged mushrooms, truffle cream sauce, shaved parmesan.",
                     "options": [
                         "veggie"
@@ -391,18 +977,48 @@
                 {
                     "name": "SPAGHETTI BOLOGNESE",
                     "price": 25.5,
+                    "image": "https://matsuno.shop/images/photos/1675230325-v2F0lWZMDcWd8yXyrCZreWlJSuD6lHULW6uBSj60tsnIg4829V.jpg",
                     "description": "grass-fed beef, pork, grana padano.",
                     "options": [
                         "veggie"
-                    ]
+                    ],
+                    "allergy_alert": [
+                        "Onion",
+                        "Garlic",
+                        "Gluten",
+                        "Dairy",
+                        "Alcohol"
+                    ],
+                    "preparationTime": "6 Minutes",
+                    "ingredients": [
+                        "6 oz. Bolognese Sauce: Braised Ground Pork and Grass Fed Beef for several hours in a mixture of Milk, Carrots, Celery, Onion, Garlic, Tomatoes, Clove, Veal Stock, Red Wine, Rosemary",
+                        "7 oz Spaghetti"
+                    ],
+                    "glutenFreeOption": "Gluten-Free Penne: Outsourced & Available Upon Request",
+                    "garnish": "Shaved Grana Padano Cheese, Basil"
                 },
                 {
                     "name": "BUDDHA BOWL",
                     "price": 23.5,
+                    "image": "https://matsuno.shop/images/photos/1662785382-CTHzO2xinUl51o56TznhfPWuEazThPQkjPlErfL1F7EYS5CT2H.png",
                     "description": "quinoa, hummus, roasted cauliflower, beets & yams, grilled avocado, broccolini & kale salad.",
                     "options": [
                         "veggie",
                         "glutenfree"
+                    ],
+                    "allergy_alert": [
+                        "Garlic",
+                        "Citrus",
+                        "Seeds",
+                        "Alcohol"
+                    ],
+                    "preparationTime": "8 minutes",
+                    "ingredients": [
+                        "Quinoa, Grilled Avocado, Roasted Cauliflower, Carrots, Cherry Tomatoes, Beets",
+                        "Hummus: Chickpeas Tahini Paste, Lemon Juice, Sesame Oil, Garlic Olive Oil, Cilantro, Salt, Ground Pepper",
+                        "Broccolini & Kale Salad: Olive Oil, Sherry Vinegar, Salt",
+                        "Miso-Glazed Yams: Yams, Rice Vinegar, Maple Syrup, Miso Paste",
+                        "Roast Cauliflower: Olive Oil, Kosher Salt, Lemon Pepper"
                     ]
                 }
             ]
@@ -413,21 +1029,49 @@
                 {
                     "name": "WARM CHOCOLATE PECAN BROWNIE",
                     "price": 12.5,
-                    "description": "vanilla bean gelato"
+                    "image": "https://matsuno.shop/images/photos/1663136966-U7SiqyzpIGVjctiNgXr5Zew9X6BWoIUaF5W93lIQeuP3T7pwZi.png",
+                    "description": "vanilla bean gelato",
+                    "allergy_alert": "Gluten, Dairy, Egg, Nuts",
+                    "preparationTime": "2 Minutes",
+                    "ingredients": [
+                        "Dark Chocolate",
+                        "Butter",
+                        "Pecans",
+                        "Eggs",
+                        "Brown Sugar",
+                        "White Sugar"
+                    ],
+                    "servedWith": "1 Scoop of Vanilla Bean Gelato & 1 oz. Ganche",
+                    "garnish": "Strawberry, Mint, Icing Sugar"
                 },
                 {
-                    "name": "PEANUT BUTTER DREAM CAKE",
+                    "name": "PASSION PANNA COTA",
                     "price": 12.5,
-                    "description": "housemade caramel sauce, whipped cream, crushed peanuts"
+                    "image":"https://matsuno.shop/images/photos/1684728222-Zz6lmPglfco2W7WCwvOVQqvWbhxFxZCItnDxgD3B4yWh70WQSA.jpg",
+                    "description": "Passion Fruit Coulis"
                 },
                 {
                     "name": "CRÈME BRÛLÉE",
                     "price": 12.5,
-                    "description": "madagascar vanilla beans."
+                    "image": "https://matsuno.shop/images/photos/1663134589-zyBAlbEiL1MRk9wkMsrpl5RWqmbwfNGHnYWs8xJ37Ww8JtUkE1.png",
+                    "description": "madagascar vanilla beans.",
+                    "allergy_alert": [
+                        "Dairy",
+                        "Egg"
+                    ],
+                    "preparationTime": "2 Minutes",
+                    "ingredients": [
+                        "Egg Yolk",
+                        "Vanilla Essence",
+                        "Sugar",
+                        "Half & Half",
+                        "Whipping Cream"
+                    ]
                 },
                 {
                     "name": "FEATURE DESSERT",
                     "price": 13,
+                    "image": "https://matsuno.shop/images/photos/1669504905-OeD72eqWb327d2xeJYzhIkJFE3TWqg8KWSlL63EQLzNpEjQarw.jpg",
                     "description": "ask your server for details."
                 }
             ]

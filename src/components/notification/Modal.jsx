@@ -17,7 +17,7 @@ const Modal = ({ isOpen, onClose, meal }) => {
           </div>
           <div className='px-6'>
             <p className='italic'>{meal.description}</p>
-            <p className='mt-2'><strong className='mr-6'>Allergies:</strong> {meal.allergies && meal.allergies.map((allergy) => {
+            <p className='mt-2'><strong className='mr-6'>Allergies:</strong> {meal.allergy_alert && meal.allergy_alert.map((allergy) => {
               return (<span className='mr-4 bg-[#bd3f39] text-basic px-2 py-1 rounded-md'>{allergy}</span>)
             })}</p>
           </div>

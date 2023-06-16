@@ -1,0 +1,709 @@
+{
+    "categories": [
+        {
+            "name": "Appetizers",
+            "items": [
+                {
+                    "name": "BBQ Ribs",
+                    "allergy_alert": "Garlic, Seeds",
+                    "prep_time": "10 Minutes",
+                    "ingredients": [
+                        "4 Pork Ribs; Dry Rub: Ground Pepper, Cayenne Pepper, White Pepper, Celery Seed, Chili Powder, Cumin, Brown Sugar, Paprika, Salt",
+                        "Rib Baste: Garlic, Molasses, Grainy Dijon Mustard, Cider Vinegar, Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavouring), Brown Sugar, Tabasco, Honey, Apricot Glaze, Ground Pepper"
+                    ]
+                },
+                {
+                    "name": "Buttermilk Fried Oysters",
+                    "allergy_alert": "Seafood, Onions, Garlic, Dairy, Citrus, Seeds",
+                    "prep_time": "4 Minutes",
+                    "ingredients": [
+                        "5 oz. Oysters: Pan Fried, Old Bay Seasoning, Cornmeal, Buttermilk, Cajun Seasoning",
+                        "Cocktail Sauce: Horseradish, Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavouring), Worcestershire Sauce (anchovies), Lemon Juice, Salt, Ground Pepper",
+                        "Tarragon Horseradish Mustard Sauce: Celery, Parsley, Green Onion, Fresh Tarragon, Tarragon Vinegar, Olive Oil, Dijon Mustard, Horseradish, Rice Vinegar, Ground Pepper"
+                    ]
+                },
+                {
+                    "name": "Fresh Oysters",
+                    "allergy_alert": "Seafood, Shellfish, Onions, Citrus, Seeds, Soy, Alcohol",
+                    "prep_time": "6 Minutes",
+                    "ingredients": [
+                        "Raw Oysters on Half Shell",
+                        "Cocktail Sauce: Horseradish, Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavouring), Worcestershire Sauce, Cilantro, Sambal, Lemon Juice, Salt, Ground Pepper",
+                        "Tarragon Horseradish Mustard Sauce: Celery, Parsley, Green Onion, Fresh Tarragon, White Wine Vinegar, Olive Oil, Dijon Mustard, Horseradish, Rice Vinegar, Ground Pepper"
+                    ],
+                    "garnish": "Lemon Wedge & Cilantro"
+                },
+                {
+                    "name": "Har Gow (Shrimp Dumplings) (6 Pieces)",
+                    "allergy_alert": "Seafood, Shellfish, Gluten",
+                    "prep_time": "6 Minutes",
+                    "ingredients": [
+                        "Shrimp Mix: Shrimp, Pork Fat, MSG, Flour",
+                        "Rice Paper (contains pork fat)",
+                        "Hot Mustard: Hot Mustard Paste & Water",
+                        "Chili Hot Sauce: Vinegar, Chili, Salt, MSG"
+                    ]
+                },
+                {
+                    "name": "Housemade Focaccia (V)",
+                    "allergy_alert": "Gluten",
+                    "prep_time": "2 Minutes",
+                    "ingredients": [
+                        "Focaccia Bread (Sliced): Salt, Sugar, Yeast, Pizza Flour, Semolina Durum, Rosemary"
+                    ],
+                    "served_with": "Balsamic Vinegar & Extra Virgin Olive Oil"
+                },
+                {
+                    "name": "Hummus (V)",
+                    "allergy_alert": "Garlic, Gluten, Dairy, Citrus, Seeds",
+                    "prep_time": "3 Minutes",
+                    "ingredients": [
+                        "3 oz. Hummus: Garbanzo Beans (chick peas), Tahini Paste, Lemon Juice, Sesame Oil, Garlic Olive Oil, Cilantro, Salt, Ground Pepper",
+                        "Warm Naan: Enriched Wheat Flour, Water, Vegetable Oil (Canola & Soybean), Yeast, Sugar, Salt, Yogurt Powder, Nonfat Milk, Sodium Citrate, Sodium Propionate, Calcium Propionate, Potassium Sorbate",
+                        "Marinated Olives: Kalamata Olives, Red, Black, Limone Cerignola & Calabrese Olives, Olive Oil, Basil",
+                        "Roasted Roma Tomatoes: Olive Oil, Garlic, Salt, Pepper"
+                    ]
+                },
+                {
+                    "name": "Italian Meatballs",
+                    "allergy_alert": "Onion, Garlic, Gluten, Dairy, Eggs",
+                    "prep_time": "7 Minutes",
+                    "ingredients": [
+                        "3 x 3 oz Meatballs: Fresh Grass-Fed Beef, Panko, Milk, Garlic Powder, Garlic Chili Sauce, Romano Cheese, Thyme, Parsley, Salt, Pepper, Eggs, Onions, Fresh Basil",
+                        "Tomato Sauce: Roasted Roma Tomatoes, Garlic, Salt, Ground Pepper",
+                        "Grana Padano Cheese"
+                    ],
+                    "garnish": "Basil"
+                },
+                {
+                    "name": "Mussels",
+                    "allergy_alert": "Seafood, Shellfish, Onion, Garlic, Gluten, Alcohol",
+                    "prep_time": "6 Minutes",
+                    "ingredients": [
+                        "1 lb. Blue Shell Mussels",
+                        "Thai Style Coconut Curry Broth: Garlic, Ginger, Red Curry Paste, Honey, Olive Oil, Chili Garlic Sauce, Pineapple Juice, Coconut Milk, Mango, Scallions, Cilantro, Thai Basil, Salt, Ground Pepper, Fish Sauce"
+                    ],
+                    "garnish": "Grilled Focaccia"
+                },
+                {
+                    "name": "Parmesan Truffle Fries (V)",
+                    "allergy_alert": "Garlic, Dairy, Egg",
+                    "prep_time": "5 Minutes",
+                    "ingredients": [
+                        "8 oz Fries: Truffle Oil, Kosher Salt, Parsley, Parmesan"
+                    ],
+                    "served_with": "Roasted Garlic Aioli"
+                },
+                {
+                    "name": "Prawn Cocktail",
+                    "allergy_alert": "Shellfish, Onions, Garlic, Citrus, Seeds, Alcohol",
+                    "prep_time": "4 Minutes",
+                    "ingredients": [
+                        "6 x 13/15 Chilled Black Tiger Prawns, Old Bay, Paprika, Cayenne, Bay Leave, Peppercorns, Lemon",
+                        "Cocktail Sauce: Horseradish, Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavouring), Worcestershire Sauce, Lemon Juice, Salt, Ground Pepper",
+                        "Tarragon Horseradish Mustard Sauce: Celery, Parsley, Green Onion, Fresh Tarragon, Tarragon Vinegar, Olive Oil, Dijon Mustard, Horseradish, Rice Vinegar, Ground Pepper"
+                    ],
+                    "garnish": "Lemon Wedges & Cilantro"
+                },
+                {
+                    "name": "Vietnamese Style Chicken Wings",
+                    "allergy_alert": "Seafood, Garlic, Gluten, Citrus, Soy, Alcohol",
+                    "prep_time": "6 Minutes",
+                    "ingredients": [
+                        "5 Chicken Wings: Fish Sauce (anchovies),Soy Sauce, Ginger, Sugar, Chili-Garlic Sauce, Lime Juice"
+                    ],
+                    "garnish": "Cilantro & Radishes"
+                }
+            ],
+            "name": "Platters",
+            "items": [
+                {
+                    "name": "Dockside Platter",
+                    "allergy_alert": "Seafood, Shellfish, Gluten, Onion, Garlic, Citrus, Seeds, Soy, Alcohol",
+                    "prep_time": "8 Minutes",
+                    "ingredients": [
+                        "Chilled Clams (1/2 lb), Mussels (1/2 lb), Raw Oysters on the half shell (12), Prawns (6), Ahi Tuna (3 oz), Snow Crab Claw (6)",
+                        "2 oz. Steelhead Salmon Poke: Tamari, Sesame Oil, Sesame Seeds, Salt, Green Onion, Garlic Chili Sauce",
+                        "Miso Soy Vinaigrette: Miso, Soy, Ginger, Dijon, Rice Vinegar, Lime Juice, Shallots, Olive Oil, Vegetable Oil, Mirin, Sake, Chili Sauce",
+                        "Red Wine Mignonette: Red Wine, Red Wine Vinegar, Shallots, Pepper",
+                        "Cocktail Sauce: Horseradish, Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavoring), Worcestershire Sauce, Cilantro, Sambal, Lemon Juice, Salt, Ground Pepper"
+                    ],
+                    "garnish": "Lemon Wedge"
+                },
+                {
+                    "name": "Harbour Platter",
+                    "allergy_alert": "Seafood, Shellfish, Onions, Gluten, Dairy, Citrus, Seeds, Soy, Alcohol",
+                    "prep_time": "9 Minutes",
+                    "ingredients": [
+                        "Prosciutto, Feta Cheese, Mixed Olives",
+                        "3 oz. Seared Albacore Tuna (4 Pieces): sliced, Black & Shiro Japanese Sesame Seeds, Olive Oil",
+                        "4 x Chilled Prawns",
+                        "Cocktail Sauce: Horseradish, Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavoring), Worcestershire Sauce, Lemon Juice, Salt, Ground Pepper",
+                        "Hummus: Garbanzo Beans (chick peas), Tahini Paste, Lemon Juice, Sesame Oil, Garlic Olive Oil, Cilantro, Salt, Ground Pepper",
+                        "Warm Naan: Enriched Wheat Flour, Water, Vegetable Oil (Canola & Soybean), Yeast, Sugar, Salt, Yogurt Powder, Nonfat Milk, Sodium Citrate, Sodium Propionate, Calcium Propionate, Potassium Sorbate",
+                        "Roasted Roma Tomatoes: Olive Oil, Garlic, Salt, Pepper"
+                    ]
+                },
+                {
+                    "name": "Seaside Platter",
+                    "allergy_alert": "Seafood, Shellfish, Onions, Garlic, Dairy, Citrus, Seeds, Alcohol",
+                    "prep_time": "8 Minutes",
+                    "ingredients": [
+                        "4 oz Steelhead Salmon: Salt & Pepper",
+                        "1 Prawn Skewer (5): Salt, Pepper, Vegetable Oil",
+                        "1 Skewer of Scallops (4): Salt, Pepper, Vegetable Oil",
+                        "Lemon Caper Beurre Blanc: White Wine, Vinegar, Shallots, Peppercorn, Lemon Juice, Cream, Butter",
+                        "4 Pork Ribs, Dry Rub: Ground Pepper, Cayenne Pepper, White Pepper, Celery Seed, Chili Powder, Cumin, Brown Sugar, Paprika, Salt",
+                        "Rib Baste: Garlic, Molasses, Grainy Dijon Mustard, Cider Vinegar, Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavoring), Brown Sugar, Tabasco, Honey, Apricot Glaze, Ground Pepper"
+                    ],
+                    "garnish": "Lemon Wedge & Cilantro"
+                }
+            ],
+            "name": "From the Wok",
+            "items": [
+                {
+                    "name": "Signature Wok Squid",
+                    "allergy_alert": "Seafood, Shellfish, Onion, Garlic, Gluten, Egg, Citrus, Soy, (Cross Contamination; Seafood, Shellfish, Nuts)",
+                    "prep_time": "4 Minutes",
+                    "ingredients": [
+                        "8 oz. U5 Vietnamese Squid Tubes: Wok Fried battered with Egg, Cornstarch Garlic, Ginger, White & Green Onion, Vietnamese Garlic Hot Sauce, Jalapeno Chili Pepper, Cilantro, Vegetable Oil, Salt",
+                        "Chili-Caesar Sauce: Egg Yolks, Pasteurized Egg, Garlic, Anchovies, Ground Pepper, Worcestershire Sauce, Dijon Mustard, Garlic-Chili Sauce"
+                    ],
+                    "garnish": "Lemon Wedge & Cilantro"
+                },
+                {
+                    "name": "Sweet & Sour Chicken",
+                    "allergy_alert": "Garlic, Gluten, Citrus, Seeds (Cross Contamination; Seafood, Shellfish, Nuts)",
+                    "prep_time": "4 Minutes",
+                    "ingredients": [
+                        "7 oz. Chicken: Garlic, Deep Fried then Wok Fried",
+                        "Sweet & Sour Sauce: Honey, Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavoring), Sugar, White Wine Vinegar, Lemon Juice, Tabasco Sauce"
+                    ],
+                    "garnish": "Green Onion & Sesame Seeds"
+                },
+                {
+                    "name": "Szechuan Beans (V)",
+                    "allergy_alert": "Garlic, Soy, Gluten, (Cross Contamination; Seafood, Shellfish, Nuts)",
+                    "prep_time": "5 Minutes",
+                    "ingredients": [
+                        "Wok Fried",
+                        "Garlic, Chili, Ginger, Tamari, Sugar"
+                    ]
+                },
+                {
+                    "name": "Thai Curry Prawns",
+                    "allergy_alert": "Seafood, Shellfish, Onions, Gluten, Nuts, Soy",
+                    "prep_time": "4 Minutes",
+                    "ingredients": [
+                        "8 x 21/25 Prawns: Wok Fried",
+                        "Red Pepper, Green Beans, Thai Basil, Coconut Red Curry Sauce, Peanuts"
+                    ],
+                    "served_with": "Wok Fried Rice",
+                    "garnish": "Lime Wedge, Cilantro"
+                }
+            ],
+            "name": "Soups & Salads",
+            "items": [
+                {
+                    "name": "Manhattan Style Clam Chowder",
+                    "allergy_alert": "Seafood, Shellfish, Onion, Garlic, Citrus, Soy, Alcohol",
+                    "prep_time": "2 Minutes",
+                    "ingredients": [
+                        "3 oz. Clams, Clam Base, Fish Stock, Potatoes, Extra Virgin Olive Oil, Onions, Carrots, Celery, Leeks, Green Pepper, Jalapeno, Chili, Ground Pepper, Garlic, Lime Juice, Tomato Paste, Peeled Tomato Strips, Minced Parsley, Havana Club Dark Rum 1 fl oz.",
+                        "Worcestershire Sauce (Anchovy), Cracked Peppercorn, Thyme, Bay Leaf, Celery Salt"
+                    ]
+                },
+                {
+                    "name": "Avocado, Tomato & Albacore",
+                    "allergy_alert": "Seafood, Gluten, Citrus, Seeds, Soy, Alcohol",
+                    "prep_time": "3 Minutes",
+                    "ingredients": [
+                        "3 oz Albacore Tuna: Wasabi, Black & White Sesame Seeds, Black Pepper, Salt, Vegetable Canola Oil",
+                        "Thai Basil, Extra Virgin Olive Oil, Grape Tomatoes, Baby Arugula, Salt, Avocado",
+                        "Ponzu Sauce: Soy Sauce, Water, Vinegar, Sugar, Salt, Bonito Extract, Lactic Acid, Lemon Juice, Autolyzed Yeast Extract, Natural Lemon & Orange Flavours, Sodium Benzoate, Succinic Acid, Disodium Inosinate, Disodium Guanylate"
+                    ]
+                },
+                {
+                    "name": "Caesar Salad",
+                    "allergy_alert": "Seafood, Garlic, Gluten, Dairy, Egg, Citrus, Soy",
+                    "prep_time": "2 Minutes",
+                    "ingredients": [
+                        "3 oz. Romaine Lettuce Hearts",
+                        "Caesar Dressing: Egg Yolks, Pasteurized Egg, Garlic, Anchovies, Ground Pepper, Worcestershire Sauce, Dijon Mustard",
+                        "Crisp Capers, Asiago Cheese",
+                        "Italian Cheese Crouton"
+                    ],
+                    "garnish": "Lemon Wedge"
+                },
+                {
+                    "name": "Harvest Salad (V)",
+                    "allergy_alert": "Dairy, Citrus, Nuts, Seeds, Alcohol",
+                    "prep_time": "6 Minutes",
+                    "ingredients": [
+                        "100 grams Baby Kale & Salad Mix",
+                        "Honey Mustard Dressing: Red Wine Vinegar, Honey, Dijon Mustard, Stoneground Mustard with Seeds, Vegetable & Canola Oil, Thyme, White Wine Vinegar, Extra Virgin Olive Oil, Ground Black Pepper, Lemon Juice",
+                        "Wine Marinated Beets: Red Wine Vinegar, Red Beets",
+                        "Miso Glazed Yams: Yams, Rice Wine Vinegar, Maple Syrup, Light Miso Paste",
+                        "Walnuts, Apples, Manchego Cheese, Shaved Brussel Sprouts"
+                    ]
+                },
+                {
+                    "name": "Mediterranean Salad (V)",
+                    "allergy_alert": "Onion, Dairy, Citrus",
+                    "prep_time": "5 Minutes",
+                    "ingredients": [
+                        "Hearts of Romaine, Tomatoes, Cucumber, Olives, Bell Peppers, Red Onion, Goat’s Feta Cheese, Oregano, Lemon Juice, Olive Oil, Fresh Cracked Pepper"
+                    ]
+                }
+            ],
+            "name": "Fish & Chops",
+            "items": [
+                {
+                    "name": "10 oz Pork Chop",
+                    "allergy_alert": "Garlic, Alcohol",
+                    "prep_time": "12 Minutes",
+                    "ingredients": [
+                        "10 oz. Fraser Valley Pork Chop (Single or Double Cut): Grilled to medium doneness",
+                        "Apricot-Anise Demi-glace: 2 fl oz. Veal Stock, Salt, Port Reduction, Garlic, Thyme, Rosemary, Bay Leaf, Star Anise, Apricot Demi"
+                    ],
+                    "served_with": "Roast Potatoes & Market Vegetables"
+                },
+                {
+                    "name": "Cedar Plank Salmon",
+                    "allergy_alert": "Seafood, Onion, Citrus, Soy",
+                    "prep_time": "6 Minutes",
+                    "ingredients": [
+                        "6 oz. Atlantic Salmon Filet: Baked to medium doneness",
+                        "Soy Glaze: Soy Sauce, Honey, Lemon Juice, Brown Sugar"
+                    ],
+                    "served_with": "Wok Fried Rice & Market Vegetables"
+                },
+                {
+                    "name": "Fraser Valley Chicken",
+                    "allergy_alert": "Onion, Garlic, Citrus, Alcohol",
+                    "prep_time": "20 Minutes",
+                    "ingredients": [
+                        "Marinated Cornish Game Hen – Served Skin On, Bone In",
+                        "Red Wine Demi-Glace: Veal Stock, Salt, Red Wine Reduction, Garlic, Thyme, Rosemary, Shallots, Bay Leaf"
+                    ],
+                    "served_with": "Roasted Potatoes & Seasonal Vegetables"
+                },
+                {
+                    "name": "Grass Fed Lamb Rack",
+                    "allergy_alert": "Onion, Garlic, Citrus, Seeds, Alcohol",
+                    "prep_time": "15 Minutes",
+                    "ingredients": [
+                        "2 Lamb Chops, 4 Bones (11.5 oz)",
+                        "Marinade: Dijon Mustard, Garlic, Chili, Lemon, Rosemary, Olive Oil, Salt & Pepper",
+                        "Red Wine Demi-Glace: Veal Stock, Salt, Red Wine Reduction, Garlic, Thyme, Rosemary, Shallots, Bay Leaf"
+                    ],
+                    "served_with": "Roast Potatoes & Market Vegetables"
+                },
+                {
+                    "name": "Mediterranean Prawns & Scallops",
+                    "allergy_alert": "Seafood, Shellfish, Onion, Garlic, Gluten, Citrus, Alcohol",
+                    "prep_time": "8 Minutes",
+                    "ingredients": [
+                        "¼ lb. Black Tiger Prawns: Olive Oil, Sambal, Garlic, Salt & Ground Pepper",
+                        "¼ lb. (4 to 5) Scallops: Vegetable Oil, Salt & Ground Pepper",
+                        "Shallots, Garlic, Fish Stock, Spinach, Grape Tomatoes, Salt, Pepper",
+                        "Lemon Caper Butter: White Wine, Vinegar, Shallots, Peppercorn, Lemon Juice, Cream, Butter"
+                    ],
+                    "served_with": "Farro & Quinoa"
+                },
+                {
+                    "name": "Roasted Sablefish",
+                    "allergy_alert": "Seafood, Onion, Citrus, Seeds, Soy, Alcohol",
+                    "prep_time": "5 Minutes",
+                    "ingredients": [
+                        "7 oz. Sablefish Filet (Black Cod): Marinated in Miso Soy Marinade",
+                        "Miso Soy Marinade: Soy, Miso, Lime Juice, Sugar, Sake",
+                        "Miso Soy Vinaigrette: Miso, Soy, Ginger, Dijon, Rice Vinegar, Lime Juice, Shallots, Olive Oil, Vegetable Oil, Mirin, Sake, Chili Sauce"
+                    ],
+                    "served_with": "Wok Fried Rice & Broccolini"
+                },
+                {
+                    "name": "Sesame Crusted Albacore Tuna",
+                    "allergy_alert": "Seafood, Onion, Citrus, Seeds, Soy",
+                    "prep_time": "6 Minutes",
+                    "ingredients": [
+                        "6 oz. Seared Rare Albacore Tuna, Black & Shiro Japanese Sesame Seed; Pan Seared in Olive Oil",
+                        "Soy Mustard Wasabi Dressing: Sesame Oil, Canola Oil, Rice Wine Vinegar, Sweet Mirin, Wasabi Powder, Soya Sauce, Dijon Mustard, Dry Mustard, Grainy Mustard, Shallots"
+                    ],
+                    "served_with": "Steamed Broccolini (6 pieces)"
+                }
+            ],
+            "name": "Stakes",
+            "items": [
+                {
+                    "name": "7 oz Grass Fed Tenderloin",
+                    "allergyAlert": "Onion, Gluten, Dairy",
+                    "additionalInfo": "*onion free without ketchup",
+                    "preparationTime": "5-15 Minutes (Based on Temperature)",
+                    "ingredients": [
+                        "7 oz. Grass Fed Tenderloin: Grilled to customer’s preferred doneness",
+                        "Roasted Parmesan Tomato: Olive Oil, Salt, Pepper, Parmesan"
+                    ],
+                    "servedWith": [
+                        "Fries & Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavouring)",
+                        "Roasted Tomato",
+                        "Broccolini"
+                    ]
+                },
+                {
+                    "name": "10 oz Prime New York Striploin",
+                    "allergyAlert": "Onion, Gluten, Dairy",
+                    "additionalInfo": "*onion free without ketchup",
+                    "preparationTime": "8 - 13 Minutes",
+                    "ingredients": [
+                        "10 oz. Prime New York Striploin Steak: Grilled to customer’s preferred doneness",
+                        "*Chef recommends rare to medium rare",
+                        "Roasted Parmesan Tomato: Olive Oil, Salt, Pepper, Parmesan"
+                    ],
+                    "servedWith": [
+                        "Fries & Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavouring)",
+                        "Roasted Tomato",
+                        "Broccolini"
+                    ]
+                },
+                {
+                    "name": "16 oz ‘Bone In’ Rib Eye Steak",
+                    "allergyAlert": "Onion, Gluten, Dairy",
+                    "additionalInfo": "*onion free without ketchup",
+                    "preparationTime": "9 - 14 Minutes",
+                    "ingredients": [
+                        "16 oz. Bone In Rib Steak: Grilled to customer’s preferred doneness",
+                        "*Chef recommends medium",
+                        "Roasted Parmesan Tomato: Olive Oil, Salt, Pepper, Parmesan"
+                    ],
+                    "servedWith": [
+                        "Fries & Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavouring)",
+                        "Roasted Tomato",
+                        "Broccolini"
+                    ]
+                },
+                {
+                    "name": "New York & Lobster Tail",
+                    "allergyAlert": "Onion, Garlic, Gluten, Dairy",
+                    "additionalInfo": "*onion free without ketchup",
+                    "preparationTime": "8 - 13 Minutes",
+                    "ingredients": [
+                        "10 oz. Prime New York Striploin Steak: Grilled to customer’s preferred doneness",
+                        "*Chef recommends rare to medium rare",
+                        "Roasted Parmesan Tomato: Olive Oil, Salt, Pepper, Parmesan",
+                        "4 oz. Lobster Tail: Garlic, Butter, Black Pepper, Salt"
+                    ],
+                    "servedWith": [
+                        "Fries & Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavouring)",
+                        "Roasted Tomato",
+                        "Broccolini"
+                    ]
+                },
+                {
+                    "name": "Bourbon Peppercorn Demi-Glace",
+                    "allergyAlert": "Onion, Garlic, Seeds, Alcohol",
+                    "preparationTime": "2 Minutes",
+                    "ingredients": [
+                        "2 fl oz. Veal Stock, Jim Beam Bourbon, Madagascar Green Peppercorns"
+                    ]
+                }
+            ],
+            "name": "For the Table & Add",
+            "items": [
+                {
+                    "name": "4 oz Lobster Tail",
+                    "allergyAlert": "Seafood, Shellfish, Dairy",
+                    "preparationTime": "4 Minutes",
+                    "ingredients": [
+                        "4 oz. Lobster Tail: Garlic, Butter, Black Pepper, Salt"
+                    ]
+                },
+                {
+                    "name": "Brussels Sprouts (V)",
+                    "allergyAlert": "Dairy, Citrus",
+                    "preparationTime": "6 Minutes",
+                    "ingredients": [
+                        "Brussels Sprouts",
+                        "Lemon Pepper Spice",
+                        "Olive Oil",
+                        "Parmesan",
+                        "Lemon Juice",
+                        "Salt"
+                    ]
+                },
+                {
+                    "name": "Cast Iron Mushrooms (V)",
+                    "allergyAlert": "Garlic, Dairy",
+                    "preparationTime": "4 Minutes",
+                    "ingredients": [
+                        "8 oz. Mushrooms: Cooked in a Cast Iron Skillet",
+                        "Butter",
+                        "Salt",
+                        "Garlic"
+                    ]
+                },
+                {
+                    "name": "Charred Broccolini (V)",
+                    "allergyAlert": "Citrus",
+                    "preparationTime": "4 Minutes",
+                    "ingredients": [
+                        "8 oz. Broccolini: Crushed Red Chili",
+                        "Lemon",
+                        "Extra Virgin Olive Oil",
+                        "Salt",
+                        "Lemon Parsley Oil"
+                    ]
+                },
+                {
+                    "name": "Fries (V)",
+                    "allergyAlert": "Onion, Gluten",
+                    "preparationTime": "4 Minutes",
+                    "ingredients": [
+                        "8 oz. Thick Cut Fries: Fried to order in Canola Oil",
+                        "1 fl oz. Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavouring)"
+                    ]
+                },
+                {
+                    "name": "Forno Roasted Potatoes (V)",
+                    "allergyAlert": "Garlic",
+                    "preparationTime": "4 Minutes",
+                    "ingredients": [
+                        "6 oz. Baby Red Potatoes & Fingerling Potatoes: Parsley",
+                        "Extra Virgin Olive Oil",
+                        "Black Pepper",
+                        "Salt",
+                        "Garlic Powder",
+                        "Rosemary"
+                    ]
+                },
+                {
+                    "name": "Garlic Prawn Sizzle",
+                    "allergyAlert": "Seafood, Shellfish, Garlic, Gluten, Dairy, Citrus, Alcohol",
+                    "preparationTime": "5 Minutes",
+                    "ingredients": [
+                        "8 x 21/25 Prawns: Butter, Garlic, Lemon, White Wine"
+                    ],
+                    "garnish": "Grilled Focaccia"
+                },
+                {
+                    "name": "Grilled Scallops",
+                    "allergyAlert": "Seafood, Shellfish, Citrus",
+                    "preparationTime": "5 Minutes",
+                    "ingredients": [
+                        "¼ lb. (4 to 5) Scallops",
+                        "Vegetable Oil",
+                        "Salt & Ground Pepper"
+                    ],
+                    "garnish": "Lemon Wedge"
+                },
+                {
+                    "name": "Grilled Prawns",
+                    "allergyAlert": "Shellfish, Seafood, Garlic, Citrus, Seeds",
+                    "preparationTime": "6 Minutes",
+                    "ingredients": [
+                        "¼ lb. Black Tiger Prawns",
+                        "Olive Oil",
+                        "Sambal",
+                        "Garlic",
+                        "Salt & Ground Pepper"
+                    ],
+                    "garnish": "Lemon Wedge"
+                },
+                {
+                    "name": "Wok Fried Rice",
+                    "allergyAlert": "Onions, Soy",
+                    "preparationTime": "6 Minutes",
+                    "ingredients": [
+                        "Steamed Rice",
+                        "Green Onions",
+                        "Carrots",
+                        "Soy Sauce",
+                        "Onions",
+                        "Vegetables Oil",
+                        "Peas"
+                    ]
+                }
+            ],
+            "name": "Burgers & Bowls",
+            "items": [
+                {
+                    "name": "California Vegan Burger (V)",
+                    "allergyAlert": "Onion, Gluten, Egg, Citrus, Seeds, Soy",
+                    "preparationTime": "8 Minutes",
+                    "ingredients": [
+                        "Iceberg Lettuce",
+                        "Sliced Tomato",
+                        "Onion",
+                        "Sliced Avocado",
+                        "House Sauce: Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavouring), Relish, Mustard, Horseradish",
+                        "Whole Wheat Bun: Pumpkin Seed, Green Onion, Cilantro (made fresh daily in house)",
+                        "Impossible Burger Patty: Water, Soy Protein Concentrate, Coconut Oil, Sunflower Oil, Natural Flavours, 2% or less of Potato Protein, Methylcellulose, Yeast Extract, Cultured Dextrose, Food Starch Modified, Soy Leghemoglobin, Salt, Mixed Tocopherols (Antioxident), Soy Protein Isolate, Vitamins & Minerals (Zinc Gluconate, Thiamine Hydrochloride, Vitamin B1, B6, B2 & B12)"
+                    ],
+                    "servedWith": "Fries or Mixed Green Salad"
+                },
+                {
+                    "name": "Coal Harbour Burger",
+                    "allergyAlert": "Onion, Garlic, Gluten, Dairy, Seeds",
+                    "preparationTime": "11 - 13 Minutes",
+                    "ingredients": [
+                        "7 oz. Ground Beef Patty",
+                        "Kosher Salt",
+                        "Cracked Pepper",
+                        "Onion Powder",
+                        "Garlic Powder",
+                        "Whole Wheat Bun: Pumpkin Seed, Green Onion, Cilantro (made fresh daily in house)",
+                        "House Sauce: Ketchup (tomatoes, distilled vinegar, high fructose corn syrup, salt, spice, onion powder, natural flavouring), Relish, Mustard, Horseradish",
+                        "Tomato",
+                        "Leaf Lettuce",
+                        "Red Onion",
+                        "Smoked White Cheddar Cheese"
+                    ],
+                    "servedWith": "Fries or Mixed Green Salad"
+                },
+                {
+                    "name": "Salmon Burger",
+                    "allergyAlert": "Seafood, Onion, Gluten, Egg, Citrus, Seeds",
+                    "preparationTime": "6 Minutes",
+                    "ingredients": [
+                        "4 oz. Local Steelhead Salmon Fillet: Salt & Pepper",
+                        "Whole Wheat Bun: Pumpkin Seed, Green Onion, Cilantro (made fresh daily in house)",
+                        "Leaf Lettuce",
+                        "Tomato",
+                        "Red Onion",
+                        "Tartar Sauce: Mayonnaise, Worcestershire Sauce, Capers, Relish, Worcestershire Sauce, Parsley, Onion, Lemon Juice"
+                    ],
+                    "servedWith": "Fries or Mixed Green Salad"
+                },
+                {
+                    "name": "Nextjen Gluten Free Burger Bun",
+                    "allergyAlert": "Egg, Seeds",
+                    "preparationTime": "N/A",
+                    "ingredients": [
+                        "Gluten Free Flour Blend: White Rice Flour, Organic Buckwheat Flour, Organic Millet, Brown Rice Flour, Tapioca, Eggs, Psyllium, Guargum, Pectin",
+                        "Egg",
+                        "Water",
+                        "Extra Virgin Olive Oil",
+                        "Sunflower Seed Oil",
+                        "Yeast",
+                        "Sugar",
+                        "Salt",
+                        "Spices",
+                        "Mustard"
+                    ]
+                },
+                {
+                    "name": "Buddha Bowl",
+                    "allergyAlert": "Garlic, Citrus, Seeds, Alcohol",
+                    "preparationTime": "8 minutes",
+                    "ingredients": [
+                        "Quinoa, Grilled Avocado, Roasted Cauliflower, Carrots, Cherry Tomatoes, Beets",
+                        "Hummus: Chickpeas Tahini Paste, Lemon Juice, Sesame Oil, Garlic Olive Oil, Cilantro, Salt, Ground Pepper",
+                        "Broccolini & Kale Salad: Olive Oil, Sherry Vinegar, Salt",
+                        "Miso-Glazed Yams: Yams, Rice Vinegar, Maple Syrup, Miso Paste",
+                        "Roast Cauliflower: Olive Oil, Kosher Salt, Lemon Pepper"
+                    ]
+                }
+            ],
+            "name": "Desserts",
+            "items": [
+                {
+                    "name": "Crème Brûlée (V)",
+                    "allergyAlert": "Dairy, Egg",
+                    "preparationTime": "2 Minutes",
+                    "ingredients": [
+                        "Egg Yolk",
+                        "Vanilla Essence",
+                        "Sugar",
+                        "Half & Half",
+                        "Whipping Cream"
+                    ]
+                },
+                {
+                    "name": "Torta Milano (V)",
+                    "allergyAlert": "Gluten, Dairy, Egg, Nuts",
+                    "preparationTime": "2 Minutes",
+                    "ingredients": [
+                        "36% Whipping Cream",
+                        "Mascarpone",
+                        "Milk & Dark Chocolate",
+                        "Chocolate Ganache Covering: Dark Chocolate, Heavy Cream",
+                        "Almond Wafer Crust: Ground Wafers, Butter"
+                    ],
+                    "garnish": "1 oz. Raspberry Sauce & 1 oz. Carmel, Strawberry, Mint, Icing Sugar"
+                },
+                {
+                    "name": "Warm Chocolate Nut Brownie (V)",
+                    "allergyAlert": "Gluten, Dairy, Egg, Nuts",
+                    "preparationTime": "2 Minutes",
+                    "ingredients": [
+                        "Dark Chocolate",
+                        "Butter",
+                        "Pecans",
+                        "Eggs",
+                        "Brown Sugar",
+                        "White Sugar"
+                    ],
+                    "servedWith": "1 Scoop of Vanilla Bean Gelato & 1 oz. Ganche",
+                    "garnish": "Strawberry, Mint, Icing Sugar"
+                }
+            ],
+            "name": "Pizza & Pasta",
+            "items": [
+                {
+                    "name": "Margherita Pizza (V)",
+                    "allergyAlert": "Garlic, Gluten, Dairy",
+                    "preparationTime": "8 Minutes",
+                    "ingredients": [
+                        "5 oz. Pizza Dough: All Purpose Flour, Semolina Flour, Olive Oil, Fresh Yeast, Salt",
+                        "2 fl oz. Tomato Sauce: Roasted Roma Tomatoes, Garlic, Salt, Ground Pepper, Basil, Tarragon, Chili",
+                        "3 oz. Shredded Mozzarella Cheese, 1.5 oz Fior De Latte"
+                    ],
+                    "glutenFreeOption": "Gluten-Free Dough Available Upon Request"
+                },
+                {
+                    "name": "Sicilian Pizza",
+                    "allergyAlert": "Onion, Garlic, Gluten, Dairy, Seeds",
+                    "preparationTime": "8 Minutes",
+                    "ingredients": [
+                        "5 oz. Pizza Dough: All Purpose Flour, Semolina Flour, Olive Oil, Fresh Yeast, Salt",
+                        "120 grams: Italian Pork Sausage with Fennel",
+                        "Basil, Hot Banana Peppers, Mozzarella, Fennel",
+                        "Roma Tomato Sauce: Balsamic Vinegar, Basil, Tomato Paste, Sugar, Tomatoes, Garlic, Tarragon, Salt, Black Pepper"
+                    ],
+                    "glutenFreeOption": "Gluten-Free Dough Available Upon Request"
+                },
+                {
+                    "name": "Gluten Free Dough",
+                    "allergyAlert": "Egg, Seeds",
+                    "preparationTime": "8 Minutes",
+                    "ingredients": [
+                        "5 oz. Pizza Dough: Water, Tapioca Starch, Potato Starch, Cornstarch, Brown Rice Flout, Canola Oil, Sunflower Oil, Evaporated Cane Sugar, Egg Whites, Xanthan Gum, Salt, Yeast, Enzymes, Ascorbic Acid, Cellulose"
+                    ]
+                },
+                {
+                    "name": "Linguini Vongole",
+                    "allergyAlert": "Seafood, Shellfish, Onion, Garlic, Gluten, Dairy, Citrus, Alcohol",
+                    "preparationTime": "6 Minutes",
+                    "ingredients": [
+                        "1 lb. Manila & Baby Clams: Steamed",
+                        "6 oz. Al Dente Linguine",
+                        "White Wine Butter Sauce: 3 fl oz. White Wine, Shallot, Garlic, Grape Tomatoes, Crushed Red Chilies, Parsley, Olive Oil, Butter, Ground Pepper, Salt",
+                        "Fish Stock: White Fish Bones, Celery, Onion, Bay Leaf, Fennel Seed, Lemon, Peppercorn, Water, Salt"
+                    ],
+                    "glutenFreeOption": "Gluten-Free Penne: Outsourced & Available Upon Request"
+                },
+                {
+                    "name": "Spaghetti Bolognese",
+                    "allergyAlert": "Onion, Garlic, Gluten, Dairy, Alcohol",
+                    "preparationTime": "6 Minutes",
+                    "ingredients": [
+                      "6 oz. Bolognese Sauce: Braised Ground Pork and Grass Fed Beef for several hours in a mixture of Milk, Carrots, Celery, Onion, Garlic, Tomatoes, Clove, Veal Stock, Red Wine, Rosemary",
+                      "7 oz Spaghetti"
+                    ],
+                    "glutenFreeOption": "Gluten-Free Penne: Outsourced & Available Upon Request",
+                    "garnish": "Shaved Grana Padano Cheese, Basil"
+                }
+            ]
+        }
+    ]
+}
