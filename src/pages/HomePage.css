@@ -1,4 +1,4 @@
-main h1+ul li {
+main .icons li {
     display: flex;
     padding: 0 16px;
     border-right: 1px solid #3D3D39;
@@ -6,7 +6,7 @@ main h1+ul li {
     cursor: pointer;
 }
 
-main h1+ul .active {
+main .icons .active {
     color: #bd3f39;
 }
 

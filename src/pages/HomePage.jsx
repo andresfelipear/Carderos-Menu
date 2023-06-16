@@ -7,8 +7,10 @@ import Modal from '../components/notification/Modal'
 
 export default function HomePage() {
   const [useFilter, setUseFilter] = useState(false);
+  const [finalData, setFinalData] = useState(data);
   const [filterValue, setFilterValue] = useState("");
-  const [mealDetails, setMealDetails] = useState("")
+  const [mealDetails, setMealDetails] = useState("");
+  const [searchTerm, setSearchTerm] = useState("");
   const oceanWise = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-oceanwise.svg";
   const veggie = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-veggie.svg";
   const glutenFree = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-glutenfree.svg";
@@ -44,12 +46,62 @@ export default function HomePage() {
 
   }
 
+  const filterJsonData = (data, term) => {
+    // Base case: data is a string
+    if (typeof data === 'string') {
+      return data.toLowerCase().includes(term.toLowerCase());
+    }
+
+    // Base case: data is an array
+    if (Array.isArray(data)) {
+      return data.some((item) => filterJsonData(item, term));
+    }
+
+    // Recursive case: data is an object
+    if (typeof data === 'object') {
+      return Object.values(data).some((value) => filterJsonData(value, term));
+    }
+
+    return false;
+  };
+  
+
+  //Advance Search
+  const search = ()=>{
+      var testData = data.categories.map((category) =>{
+        const filterItems = category.items.filter(item => filterJsonData(item,searchTerm));
+        if(filterItems.length>0){
+          category.items = filterItems;
+          return category;
+        }else{
+          return 0;
+        }
+      });
+      testData = testData.filter(item=> item!==0)
+      console.log(testData);
+  }
+
   return (
     <main className='bg-secondary py-6 md:py-12' >
       <div className='px-4 md:px-8'>
-        <h1 className='mb-6 text-[46px] text-center uppercase font-sans tracking-wider'>Menus</h1>
-        <ul className='flex justify-center text-xs items-center mb-5'>
-          <li onClick={() => { applyFilter('oceanwise') }} className={filterValue === "oceanwise" ? 'active' : ''} ><img src={oceanWise} alt="" /><span>Oceanwise</span></li>
+        <h1 className='mb-4 text-[46px] text-center uppercase font-sans tracking-wider'>Menus</h1>
+        <div className='m-auto text-center mb-4'>
+          <input
+            type="text"
+            value={searchTerm}
+            onChange={(e)=>{setSearchTerm(e.target.value)}}
+            placeholder="Enter search term..."
+            className="p-2 border border-gray-300 rounded-l-md w-96 focus:outline-none"
+          />
+          <button
+            onClick={search}
+            className="p-2 bg-background text-white rounded-r-md hover:bg-blue-600 transition duration-300"
+          >
+            Search
+          </button>
+        </div>
+        <ul className='flex justify-center text-xs items-center mb-5 icons'>
+          <li onClick={() => { applyFilter('oceanwise') }} className={filterValue === "oceanwise" ? "active" : "flex"} ><img src={oceanWise} alt="" /><span>Oceanwise</span></li>
           <li onClick={() => { applyFilter('veggie') }} className={filterValue === "veggie" ? 'active' : ''} ><img src={veggie} alt="" /><span>Vegetarian</span></li>
           <li onClick={() => { applyFilter('glutenfree') }} className={filterValue === "glutenfree" ? 'active' : ''}><img src={glutenFree} alt="" /><span>Gluten-Free</span></li>
         </ul>

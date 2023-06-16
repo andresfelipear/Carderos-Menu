@@ -1,4 +1,18 @@
 {
+    "types_allergies":[
+        "Seafood",
+        "Shellfish",
+        "Onion",
+        "Garlic",
+        "Gluten",
+        "Dairy",
+        "Egg",
+        "Citrus",
+        "Nuts",
+        "Seeds",
+        "Soy",
+        "Alcohol"
+    ],
     "categories": [
         {
             "name": "Appetizers",
