@@ -7,7 +7,6 @@ import Modal from '../components/notification/Modal'
 
 export default function HomePage() {
   const [useFilter, setUseFilter] = useState(false);
-  const [finalData, setFinalData] = useState(data);
   const [filterValue, setFilterValue] = useState("");
   const [mealDetails, setMealDetails] = useState("");
   const [searchTerm, setSearchTerm] = useState("");
@@ -31,13 +30,18 @@ export default function HomePage() {
       setFilterValue(value);
       setUseFilter(true);
     }
-    else if (value !== filterValue) {
+    else if (value !== filterValue && (value !=="")) {
       setFilterValue(value);
+    }
+    else if((value === filterValue) && (value !== "") && (value === searchTerm)){
+    }
+    else if(value===""){
+      setUseFilter(false);
+      setFilterValue("");
     }
     else {
       setFilterValue("");
       setUseFilter(false);
-
     }
   }
 
@@ -66,21 +70,6 @@ export default function HomePage() {
   };
   
 
-  //Advance Search
-  const search = ()=>{
-      var testData = data.categories.map((category) =>{
-        const filterItems = category.items.filter(item => filterJsonData(item,searchTerm));
-        if(filterItems.length>0){
-          category.items = filterItems;
-          return category;
-        }else{
-          return 0;
-        }
-      });
-      testData = testData.filter(item=> item!==0)
-      console.log(testData);
-  }
-
   return (
     <main className='bg-secondary py-6 md:py-12' >
       <div className='px-4 md:px-8'>
@@ -94,16 +83,16 @@ export default function HomePage() {
             className="p-2 border border-gray-300 rounded-l-md w-96 focus:outline-none"
           />
           <button
-            onClick={search}
+            onClick={()=>{applyFilter(searchTerm)}}
             className="p-2 bg-background text-white rounded-r-md hover:bg-blue-600 transition duration-300"
           >
             Search
           </button>
         </div>
         <ul className='flex justify-center text-xs items-center mb-5 icons'>
-          <li onClick={() => { applyFilter('oceanwise') }} className={filterValue === "oceanwise" ? "active" : "flex"} ><img src={oceanWise} alt="" /><span>Oceanwise</span></li>
-          <li onClick={() => { applyFilter('veggie') }} className={filterValue === "veggie" ? 'active' : ''} ><img src={veggie} alt="" /><span>Vegetarian</span></li>
-          <li onClick={() => { applyFilter('glutenfree') }} className={filterValue === "glutenfree" ? 'active' : ''}><img src={glutenFree} alt="" /><span>Gluten-Free</span></li>
+          <li onClick={() => { setSearchTerm(""); applyFilter('oceanwise') }} className={filterValue === "oceanwise" ? "active" : "flex"} ><img src={oceanWise} alt="" /><span>Oceanwise</span></li>
+          <li onClick={() => { setSearchTerm("");applyFilter('veggie') }} className={filterValue === "veggie" ? 'active' : ''} ><img src={veggie} alt="" /><span>Vegetarian</span></li>
+          <li onClick={() => { setSearchTerm("");applyFilter('glutenfree') }} className={filterValue === "glutenfree" ? 'active' : ''}><img src={glutenFree} alt="" /><span>Gluten-Free</span></li>
         </ul>
         <div className='menu-section bg-basic max-w-screen-lg m-auto'>
           <ul className='flex justify-center text-xs md:text-base  uppercase items-center bg-[#BD3F39] text-basic'>
@@ -116,7 +105,8 @@ export default function HomePage() {
             {data.categories.map((section) => {
               let meals = section.items;
               if (useFilter) {
-                meals = section.items.filter(item => item.options && item.options.includes(filterValue));
+                //meals = section.items.filter(item => item.options && item.options.includes(filterValue));
+                meals = section.items.filter(item => filterJsonData(item,filterValue));
               }
               if (meals.length == 0) {
                 return;

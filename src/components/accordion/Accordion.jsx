@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState} from 'react';
 
 const Accordion = ({ title, content, open }) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -7,8 +7,10 @@ const Accordion = ({ title, content, open }) => {
 
 
     const toggleAccordion = () => {
+        console.log("calling child function22")
         setIsOpen(!isOpen);
     };
+
 
     return (
         <div>
