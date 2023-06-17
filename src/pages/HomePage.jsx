@@ -41,9 +41,9 @@ export default function HomePage() {
   const search = (value) => {
     if (showAdvanceSearch) {
       setFilterAllergies(true);
-    } else {
-      setFilterValue(value);
     }
+    setFilterValue(value);
+
   }
 
   const showDetails = (meal) => {
@@ -82,7 +82,12 @@ export default function HomePage() {
     } else {
       setSearchOptions((prevData) => [...prevData, option]);
     }
-    console.log(searchOptions);
+  }
+
+  const advanceSearchSection = () => {
+    setShowAdvanceSearch(!showAdvanceSearch);
+    setSearchOptions([]);
+    setFilterAllergies(false);
   }
 
 
@@ -106,7 +111,7 @@ export default function HomePage() {
               Search
             </button>
           </div>
-          <div onClick={() => { setShowAdvanceSearch(!showAdvanceSearch); if (!showAdvanceSearch) { setSearchOptions([]); } }} className="text-sm text-right text-primary italic underline tracking-wide text-gray-500 cursor-pointer hover:font-medium">
+          <div onClick={advanceSearchSection} className="text-sm text-right text-primary italic underline tracking-wide text-gray-500 cursor-pointer hover:font-medium">
             Advance Search
           </div>
           {
