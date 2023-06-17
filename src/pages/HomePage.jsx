@@ -4,12 +4,14 @@ import Accordion from '../components/accordion/Accordion'
 import Meal from '../components/meal/Meal'
 import data from '../data.json'
 import Modal from '../components/notification/Modal'
+import Checkbox from '../components/checkbox/Checkbox'
 
 export default function HomePage() {
   const [useFilter, setUseFilter] = useState(false);
   const [filterValue, setFilterValue] = useState("");
   const [mealDetails, setMealDetails] = useState("");
   const [searchTerm, setSearchTerm] = useState("");
+  const [showAdvanceSearch, setShowAdvanceSearch] = useState(false);
   const oceanWise = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-oceanwise.svg";
   const veggie = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-veggie.svg";
   const glutenFree = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-glutenfree.svg";
@@ -90,9 +92,18 @@ export default function HomePage() {
               Search
             </button>
           </div>
-          <div className="text-sm text-right text-primary italic underline tracking-wide text-gray-500 cursor-pointer hover:font-medium">
+          <div onClick={() => { setShowAdvanceSearch(!showAdvanceSearch) }} className="text-sm text-right text-primary italic underline tracking-wide text-gray-500 cursor-pointer hover:font-medium">
             Advance Search
           </div>
+          {
+            showAdvanceSearch && (
+              <div className='grid  grid-cols-3 text-center gap-2  p-2 justify-items-center text-sm'>
+                {data.types_allergies.map((allergy) => {
+                  return (<Checkbox name={allergy} />)
+                })}
+              </div>)
+          }
+
         </div>
         <ul className='flex justify-center text-xs items-center mb-5 icons'>
           <li onClick={() => { setSearchTerm(""); applyFilter('oceanwise') }} className={filterValue === "oceanwise" ? "active" : "flex"} ><img src={oceanWise} alt="" /><span>Oceanwise</span></li>
