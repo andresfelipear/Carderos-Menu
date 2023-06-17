@@ -12,7 +12,6 @@ export default function HomePage() {
   const [searchTerm, setSearchTerm] = useState("");
   const [showAdvanceSearch, setShowAdvanceSearch] = useState(false);
   const [searchOptions, setSearchOptions] = useState([]);
-  const [filterAllergies, setFilterAllergies] = useState(false);
   const oceanWise = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-oceanwise.svg";
   const veggie = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-veggie.svg";
   const glutenFree = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-glutenfree.svg";
@@ -39,9 +38,6 @@ export default function HomePage() {
   }
 
   const search = (value) => {
-    if (showAdvanceSearch) {
-      setFilterAllergies(true);
-    }
     setFilterValue(value);
 
   }
@@ -87,7 +83,6 @@ export default function HomePage() {
   const advanceSearchSection = () => {
     setShowAdvanceSearch(!showAdvanceSearch);
     setSearchOptions([]);
-    setFilterAllergies(false);
   }
 
 
@@ -143,9 +138,7 @@ export default function HomePage() {
             <p className='text-center text-sm'>Available from 4pm daily</p>
             {data.categories.map((section) => {
               let meals = section.items.filter(item => filterJsonData(item, filterValue));
-              if (filterAllergies) {
                 meals = meals.filter(meal => !filterJsonData(meal, searchOptions));
-              }
               if (meals.length === 0) {
                 return;
               }
