@@ -10,6 +10,7 @@ main .icons .active {
     color: #bd3f39;
 }
 
+
 main h1+ul .active span{
     border-bottom: 2px solid #bd3f39;
 }
@@ -22,7 +23,7 @@ main .menu-section ul li {
 }
 
 
-main .menu-section ul li:hover {
+main .menu-section ul li:hover, main button:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
