@@ -7,12 +7,12 @@ import Modal from '../components/notification/Modal'
 import Checkbox from '../components/checkbox/Checkbox'
 
 export default function HomePage() {
-  const [useFilter, setUseFilter] = useState(false);
   const [filterValue, setFilterValue] = useState("");
   const [mealDetails, setMealDetails] = useState("");
   const [searchTerm, setSearchTerm] = useState("");
   const [showAdvanceSearch, setShowAdvanceSearch] = useState(false);
   const [searchOptions, setSearchOptions] = useState([]);
+  const [filterAllergies, setFilterAllergies] = useState(false);
   const oceanWise = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-oceanwise.svg";
   const veggie = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-veggie.svg";
   const glutenFree = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-glutenfree.svg";
@@ -31,20 +31,18 @@ export default function HomePage() {
   const applyFilter = (value) => {
     if (filterValue === "") {
       setFilterValue(value);
-      setUseFilter(true);
-    }
-    else if (value !== filterValue && (value !== "")) {
+    } else if (filterValue === value) {
+      setFilterValue("");
+    } else if (filterValue !== value) {
       setFilterValue(value);
     }
-    else if ((value === filterValue) && (value !== "") && (value === searchTerm)) {
-    }
-    else if (value === "") {
-      setUseFilter(false);
-      setFilterValue("");
-    }
-    else {
-      setFilterValue("");
-      setUseFilter(false);
+  }
+
+  const search = (value) => {
+    if (showAdvanceSearch) {
+      setFilterAllergies(true);
+    } else {
+      setFilterValue(value);
     }
   }
 
@@ -56,7 +54,11 @@ export default function HomePage() {
   const filterJsonData = (data, term) => {
     // Base case: data is a string
     if (typeof data === 'string') {
-      return data.toLowerCase().includes(term.toLowerCase());
+      if (Array.isArray(term)) {
+        return term.some((t) => data.toLowerCase().includes(t.toLowerCase()));
+      } else {
+        return data.toLowerCase().includes(term.toLowerCase());
+      }
     }
 
     // Base case: data is an array
@@ -80,6 +82,7 @@ export default function HomePage() {
     } else {
       setSearchOptions((prevData) => [...prevData, option]);
     }
+    console.log(searchOptions);
   }
 
 
@@ -97,13 +100,13 @@ export default function HomePage() {
               className="p-2 border border-gray-300 rounded-l-md w-96 focus:outline-none"
             />
             <button
-              onClick={() => applyFilter(searchTerm)}
+              onClick={() => search(searchTerm)}
               className="p-2 bg-background text-white rounded-r-md hover:bg-orange-800 transition duration-300"
             >
               Search
             </button>
           </div>
-          <div onClick={() => { setShowAdvanceSearch(!showAdvanceSearch) }} className="text-sm text-right text-primary italic underline tracking-wide text-gray-500 cursor-pointer hover:font-medium">
+          <div onClick={() => { setShowAdvanceSearch(!showAdvanceSearch); if (!showAdvanceSearch) { setSearchOptions([]); } }} className="text-sm text-right text-primary italic underline tracking-wide text-gray-500 cursor-pointer hover:font-medium">
             Advance Search
           </div>
           {
@@ -134,16 +137,15 @@ export default function HomePage() {
           <div className='mt-12 px-4 md:px-12 pb-6 md:pb-16 mx-auto'>
             <p className='text-center text-sm'>Available from 4pm daily</p>
             {data.categories.map((section) => {
-              let meals = section.items;
-              if (useFilter) {
-                //meals = section.items.filter(item => item.options && item.options.includes(filterValue));
-                meals = section.items.filter(item => filterJsonData(item, filterValue));
+              let meals = section.items.filter(item => filterJsonData(item, filterValue));
+              if (filterAllergies) {
+                meals = meals.filter(meal => !filterJsonData(meal, searchOptions));
               }
-              if (meals.length == 0) {
+              if (meals.length === 0) {
                 return;
               }
               return (
-                <Accordion open={useFilter} key={section.name} title={section.name} content={<div className='grid grid-cols-1 gap-x-12 lg:grid-cols-2'>
+                <Accordion key={section.name} title={section.name} content={<div className='grid grid-cols-1 gap-x-12 lg:grid-cols-2'>
                   {meals.map((meal) => {
                     return (
                       <Meal onClick={() => showDetails(meal)} key={meal.name} title={meal.name} price={meal.price} description={meal.description} icons={meal.options} />

@@ -1,13 +1,12 @@
 import React, { useState} from 'react';
 
-const Accordion = ({ title, content, open }) => {
+const Accordion = ({ title, content}) => {
     const [isOpen, setIsOpen] = useState(false);
     const iconMinus = 'https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-minus.svg';
     const iconPlus = 'https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-plus.svg';
 
 
     const toggleAccordion = () => {
-        console.log("calling child function22")
         setIsOpen(!isOpen);
     };
 
@@ -20,10 +19,10 @@ const Accordion = ({ title, content, open }) => {
             >
                 <h2 className='text-lg md:text-2xl font-["Merriweather"]'>{title}</h2>
                 <span>
-                    <img className='w-4 h-4' src={(isOpen||open) ? iconMinus : iconPlus} />
+                    <img className='w-4 h-4' src={(isOpen) ? iconMinus : iconPlus} />
                 </span>
             </button>
-            {(isOpen||open) && (
+            {(isOpen) && (
                 <div className="px-4 py-4 border-b">
                     <div>{content}</div>
                 </div>
