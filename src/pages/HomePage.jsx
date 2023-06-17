@@ -12,6 +12,7 @@ export default function HomePage() {
   const [mealDetails, setMealDetails] = useState("");
   const [searchTerm, setSearchTerm] = useState("");
   const [showAdvanceSearch, setShowAdvanceSearch] = useState(false);
+  const [searchOptions, setSearchOptions] = useState([]);
   const oceanWise = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-oceanwise.svg";
   const veggie = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-veggie.svg";
   const glutenFree = "https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-glutenfree.svg";
@@ -71,6 +72,16 @@ export default function HomePage() {
     return false;
   };
 
+  const updateSearchOptions = (option)=>{
+      const dataExists = searchOptions.some((opt)=> opt=== option);
+      if(dataExists){
+        const updatedArray = searchOptions.filter((opt)=> opt!== option);
+        setSearchOptions(updatedArray);
+      }else{
+        setSearchOptions((prevData)=>[...prevData, option]);
+      }
+  }
+
 
   return (
     <main className='bg-secondary py-6 md:py-12' >
@@ -99,7 +110,7 @@ export default function HomePage() {
             showAdvanceSearch && (
               <div className='grid  grid-cols-3 text-center gap-2  p-2 justify-items-center text-sm'>
                 {data.types_allergies.map((allergy) => {
-                  return (<Checkbox name={allergy} />)
+                  return (<Checkbox key={allergy} name={allergy} checkedBox={updateSearchOptions} />)
                 })}
               </div>)
           }
