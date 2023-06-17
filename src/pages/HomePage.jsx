@@ -72,14 +72,14 @@ export default function HomePage() {
     return false;
   };
 
-  const updateSearchOptions = (option)=>{
-      const dataExists = searchOptions.some((opt)=> opt=== option);
-      if(dataExists){
-        const updatedArray = searchOptions.filter((opt)=> opt!== option);
-        setSearchOptions(updatedArray);
-      }else{
-        setSearchOptions((prevData)=>[...prevData, option]);
-      }
+  const updateSearchOptions = (option) => {
+    const dataExists = searchOptions.some((opt) => opt === option);
+    if (dataExists) {
+      const updatedArray = searchOptions.filter((opt) => opt !== option);
+      setSearchOptions(updatedArray);
+    } else {
+      setSearchOptions((prevData) => [...prevData, option]);
+    }
   }
 
 
@@ -108,10 +108,14 @@ export default function HomePage() {
           </div>
           {
             showAdvanceSearch && (
-              <div className='grid  grid-cols-3 text-center gap-2  p-2 justify-items-center text-sm'>
-                {data.types_allergies.map((allergy) => {
-                  return (<Checkbox key={allergy} name={allergy} checkedBox={updateSearchOptions} />)
-                })}
+              <div>
+                <p className='text-left font-medium'>Allergies:</p>
+                <div className='grid  grid-cols-3 text-center gap-2  p-2 justify-items-center text-sm'>
+                  {data.types_allergies.map((allergy) => {
+                    return (<Checkbox key={allergy} name={allergy} checkedBox={updateSearchOptions} />)
+                  })}
+                </div>
+
               </div>)
           }
 
