@@ -143,7 +143,7 @@ export default function HomePage() {
                 return;
               }
               return (
-                <Accordion key={section.name} title={section.name} content={<div className='grid grid-cols-1 gap-x-12 lg:grid-cols-2'>
+                <Accordion key={section.name} title={section.name} items={meals} content={<div className='grid grid-cols-1 gap-x-12 lg:grid-cols-2'>
                   {meals.map((meal) => {
                     return (
                       <Meal onClick={() => showDetails(meal)} key={meal.name} title={meal.name} price={meal.price} description={meal.description} icons={meal.options} />

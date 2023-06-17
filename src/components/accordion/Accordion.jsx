@@ -1,10 +1,9 @@
 import React, { useState} from 'react';
 
-const Accordion = ({ title, content}) => {
+const Accordion = ({ title, content, meals}) => {
     const [isOpen, setIsOpen] = useState(false);
     const iconMinus = 'https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-minus.svg';
     const iconPlus = 'https://www.vancouverdine.com/wp-content/themes/sequoia/images/icons/icon-plus.svg';
-
 
     const toggleAccordion = () => {
         setIsOpen(!isOpen);
